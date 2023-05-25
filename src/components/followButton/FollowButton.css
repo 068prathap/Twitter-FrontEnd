@@ -1,0 +1,58 @@
+.followButtonOuter
+{
+    margin-right: 1px;
+}
+.followButton
+{
+    background-color: black;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 9999px;
+    cursor: pointer;
+}
+.followButton:hover
+{
+    background-color: rgb(39, 44, 48);
+}
+.followingButton
+{
+    border: 1px solid rgb(207, 217, 222);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 9999px;
+    box-sizing: border-box;
+}
+.followingButton:hover
+{
+    border: 1px solid rgb(253, 201, 206);
+    background-color: rgba(244, 33, 46, 0.1);
+
+}
+.followButtonText
+{
+    font-size: 13px;
+    color: white;
+    font-family: font3;
+    margin: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.followingButtonText
+{
+    font-size: 13px;
+    font-family: font3;
+    margin: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.unfollowButtonText
+{
+    font-size: 13px;
+    font-family: font3;
+    margin: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: rgb(244, 33, 46);
+}

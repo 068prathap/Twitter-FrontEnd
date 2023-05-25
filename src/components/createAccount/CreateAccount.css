@@ -1,0 +1,270 @@
+.sign_up
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.su
+{
+    max-width: 80vw;
+    min-width: 600px;
+    height: 650px;
+    min-height: 600px;
+    max-height: 90vh;
+    background-color: white;
+    border-radius: 16px;
+}
+.su1
+{
+    display: flex;
+}
+.su1_1
+{
+    margin-left: 15px;
+    margin-top: 16px;
+}
+.su1_1 svg
+{
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+}
+.su1_2
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 89%;
+}
+.su1_2 svg
+{
+    width: 30px;
+    height: 50px;
+    fill: rgb(29, 155, 240);
+}
+.su_2
+{
+    display: flex;
+    justify-content: center;
+}
+.su2
+{
+    width: 304px;
+}
+.su2_1
+{
+    width: 298px;
+}
+.su2_1 p
+{
+    margin-top: 18px;
+    font-family: font3;
+    font-size: 29px;
+}
+.su2_2
+{
+    display: flex;
+    border: 1px solid #dadce0;
+    border-radius: 20px;
+    justify-content: center;
+    height: 38px;
+    align-items: center;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 298px;
+    margin-top: 30px;
+    margin-left: 2px;
+}
+.su2_2:hover
+{
+    background-color: rgba(66,133,244,.04);
+    border-color: #d2e3fc;
+    cursor: pointer;
+}
+.su2_2 svg
+{
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+.su2_2 p
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-family: font2;
+    color: #3c4043;
+    letter-spacing: 0.25px
+}
+.su2_3
+{
+    display: flex;
+    border: 1px solid #dadce0;
+    border-radius: 20px;
+    justify-content: center;
+    height: 36px;
+    align-items: center;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 298px;
+    margin-top: 20px;
+    margin-left: 2px;
+}
+.su2_3:hover
+{
+    background-color: rgb(230,230,230);
+    cursor: pointer;
+}
+.su2_3 svg
+{
+    width: 19px;
+    height: 19px;
+    margin-right: 4px;
+}
+.su2_3 p
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-family: font3;
+}
+.su2_4
+{
+    display: flex;
+    margin-top: 11px;
+    width: 298px;
+}
+.su2_4 div
+{
+    width: 132px;
+    height: 1px;
+    background-color: rgb(207, 217, 222);
+    margin-top: 9px;
+}
+.su2_4 p
+{
+    font-size: 16px;
+    font-family: font1;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 8.5px;
+    margin-right: 8.5px;
+    letter-spacing: -0.1px;
+}
+.link
+{
+    text-decoration: none;
+}
+.su2_5
+{
+    border: 1px solid rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    background-color: rgb(15, 20, 25);
+    border-radius: 20px;
+    height: 32px;
+    align-items: center;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin-top: 11px;
+    width: 302px;
+}
+.su2_5:hover
+{
+    background-color: rgb(39,44,48);
+    cursor: pointer;
+}
+.su2_5 p
+{
+    font-size: 14px;
+    font-family: font3;
+    color: white;
+}
+.su2_6
+{
+    margin-top: -1px;
+    width: 298px;
+}
+.su2_6 p
+{
+    font-size: 12px;
+    font-family: font1;
+    color: #536471;
+    line-height: 15px;
+}
+.su2_6 p a
+{
+    color: #1d9bf0;
+    cursor: pointer;
+}
+.su2_6 p a:hover
+{
+    text-decoration: underline;
+}
+.su2_7
+{
+    margin-top: 39px;
+    width: 298px;
+}
+.su2_7 p
+{
+    font-size: 14px;
+    font-family: font1;
+    color: #536471;
+}
+.su2_7 p a
+{
+    color: #1d9bf0;
+    cursor: pointer;
+}
+.su2_7 p a:hover
+{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 700px)
+{
+    .su_1
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .su1
+    {
+        width: 600px;
+    }
+    .su1_1
+    {
+        width: calc(50% - 30px);
+    }
+    .su1_2
+    {
+        width: calc(50%);
+        justify-content: left;
+        margin-right: 15px;
+    }
+    .su_2
+    {
+        margin-top: 112px;
+    }
+    .su2_1 p
+    {
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 380px)
+{
+    .su2
+    {
+        overflow-x: scroll;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

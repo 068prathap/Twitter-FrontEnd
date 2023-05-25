@@ -1,0 +1,27 @@
+.otpDialogbox
+{
+    width: 260px;
+    padding: 30px;
+    box-sizing: content-box;
+    border-radius: 16px;
+}
+.otpDialogbox:hover
+{
+    cursor: pointer;
+}
+.verifyTitle
+{
+    font-size: 19px;
+    color: #0f1419;
+    font-family: font3;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+.verifyNote
+{
+    font-size: 14px;
+    color: #536471;
+    font-family: font1;
+    line-height: 19px;
+    margin-top: 0px;
+}

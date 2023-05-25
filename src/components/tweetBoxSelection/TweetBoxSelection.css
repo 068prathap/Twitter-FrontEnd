@@ -1,0 +1,47 @@
+.selectionDivOuter
+{
+    display: flex;
+    align-items: center;
+}
+.selectionTopicLogoDiv
+{
+    background-color: rgb(29, 155, 240);
+    height: 38px;
+    width: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 11px;
+}
+.selectionTopicLogo
+{
+    height: 19px;
+    width: 19px;
+}
+.selectionTopicTextDiv
+{
+    flex-grow: 1;
+}
+.selectionTopicText
+{
+    margin: 0;
+    font-size: 14px;
+    font-family: font3;
+    color: rgb(15, 20, 25);
+}
+.selectionTickIconDiv
+{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+.selectionTickIconDiv-1
+{
+    display: none;
+}
+.selectionTickIcon
+{
+    width: 19px;
+    height: 17.5px;
+}

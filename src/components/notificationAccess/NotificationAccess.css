@@ -1,0 +1,49 @@
+.notificationPermition
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentOfNotificationAccess
+{
+    max-width: 400px;
+}
+.bellIcon
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 45px;
+}
+.bellIcon img
+{
+    width: 46px;
+    height: 46px;
+}
+.textContectOfNotificationAccess
+{
+    margin-bottom: 30px;
+}
+.titleOfNotificationAccess
+{
+    font-size: 25px;
+    font-family: font3;
+    color: #0f1419;
+    margin-bottom: 10px;
+}
+.noteForNotificationAccess
+{
+    font-size: 14px;
+    font-family: font1;
+    color: #536471;
+    margin-top: 0px;
+    line-height: 19px;
+}
+.notificationAccessButtons
+{
+    padding-bottom: 80px;
+}
+.skipNotificationAccess
+{
+    margin-top: 15px;
+}

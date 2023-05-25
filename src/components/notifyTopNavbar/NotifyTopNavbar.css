@@ -1,0 +1,78 @@
+.notifyTopNavbarOuter
+{
+    margin-top: 11px;
+    border-bottom: 1px solid rgb(239, 243, 244);
+}
+.notifyTopSearchbarOuter
+{
+    padding-left: 15px;
+    padding-right: 14px;
+}
+.notifyTopSearchbar
+{
+    display: flex;
+    align-items: center;
+}
+.notifyTopUserImgDiv
+{
+    display: none;
+}
+.notifyTopUserImg
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.notifyTopHeadingDiv
+{
+    flex-grow: 1;
+}
+.notifyTopHeading
+{
+    margin: 0;
+    font-size: 19px;
+    font-family: font3;
+}
+.notifyTopSettingIconDiv
+{
+    padding-left: 39px;
+    margin-top: 4px;
+}
+.TopNavListOuter
+{
+    padding-top: 14px;
+}
+.TopNavList
+{
+    display: flex;
+}
+
+@media only screen and (max-width: 500px)
+{
+    .notifyTopNavbarOuter
+    {
+        margin-top: 7px;
+    }
+    .notifyTopSearchbarOuter
+    {
+        padding-right: 13px;
+    }
+    .notifyTopUserImgDiv
+    {
+        display: block;
+        padding-right: 22px;
+        margin-top: 2px;
+    }
+    .notifyTopHeading
+    {
+        font-size: 16px;
+    }
+    .notifyTopSettingIconDiv
+    {
+        margin-top: 0px;
+    }
+    .TopNavListOuter
+    {
+        padding-top: 23px;
+    }
+}

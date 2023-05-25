@@ -1,0 +1,116 @@
+.profileSetupHeader
+{
+    display: flex;
+    justify-content: center;
+}
+.profileSetupHeader img
+{
+    width: 30px;
+    height: 50px;
+}
+.profileIntro
+{
+    padding-left: 76px;
+    padding-right: 76px;
+}
+.profileTitle
+{
+    font-size: 29px;
+    color: #0f1419;
+    font-family: font3;
+    margin: 0;
+    margin-top: 18px;
+    margin-bottom: 9px;
+}
+.profileNote
+{
+    font-size: 14px;
+    color: #536471;
+    font-family: font1;
+    margin: 0;
+}
+.profileImage0
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.defaultProfile
+{
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.imageBackground
+{
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.2;
+}
+.profileSetupIcons
+{
+    display: flex;
+    position: absolute;
+    margin-top: 67px;
+    margin-left: 67px;
+}
+.profileSetupIcons-1
+{
+    margin-left: 38px;
+}
+.addProfile, .removeProfile
+{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(15,20,25,0.75);
+}
+.removeProfile
+{
+    margin-left: 19px;
+    display: none;
+    z-index: 3;
+    cursor: pointer;
+}
+.addProfile:hover, .removeProfile:hover
+{
+    background-color: rgba(39,44,48,0.75);
+}
+.addProfileSvg, .removeProfileSvg
+{
+    width: 21px;
+    height: 21px;
+    position: absolute;
+}
+.addProfileInput
+{
+    width: 1px;
+    height: 1px;
+    opacity: 0; 
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+    cursor: pointer;
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.profileImage0 {
+    flex: 1;
+    margin-bottom: 125px;
+}

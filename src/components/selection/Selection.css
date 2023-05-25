@@ -1,0 +1,66 @@
+.Month
+{
+    flex-grow: 2;
+}
+.Day
+{
+    flex-grow: 1;
+}
+.Year
+{
+    flex-grow: 1;
+}
+.Month, .Day
+{
+    margin-right: 11px;
+}
+
+.Month, .Day, .Year
+{
+    border: 1px solid rgb(207, 217, 222);
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.Month label, .Day label, .Year label
+{
+    font-size: 12px;
+    font-family: font1;
+    color: rgb(83, 100, 113);
+    position: absolute;
+    padding: 8px 8px 0px 8px;
+}
+.Year label
+{
+    padding: 8px 8px 0px 7.5px;
+}
+.Month select, .Day select, .Year select
+{
+    appearance: none;
+    background-color: white;
+    border: none;
+    outline: none;
+    padding: 11px 8px 8px 8px;
+    margin-top: 15px;
+    line-height: 19px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    font-family: font1;
+}
+.Month select option, .Day select option, .Year select option
+{
+    font-family: font1;
+    font-size: 16px;
+}
+.Month svg, .Day svg, .Year svg
+{
+    width: 21px;
+    height: 21px;
+    fill: rgb(83, 100, 113);
+    justify-content: right;
+    margin-right: 11px;
+    position: absolute;
+    margin-left: -32px;
+    margin-top: 16px;
+}

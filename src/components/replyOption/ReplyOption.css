@@ -1,0 +1,32 @@
+.tweetingAreaReplyOption:hover{
+    background-color: rgb(29, 155, 240,0.1);
+ }
+ 
+ .tweetingAreaReplyOption {
+    display: flex;
+    width: fit-content;
+    padding-left: 11px;
+    padding-right: 11px;
+    margin-left: -11px;
+    min-height: 23px;
+    align-items: center;
+    border-radius: 9999px;
+    cursor: pointer;
+ }
+ 
+ .replyOptionWorldIconDiv {
+    margin-right: 4px;
+ }
+ 
+ .replyOptionWorldIcon {
+    width: 15px;
+    height: 15px;
+ }
+ 
+ .replyOptionText {
+    margin: 0;
+    font-size: 13px;
+    color: rgb(29, 155, 240);
+    font-family: font3;
+ }
+ 

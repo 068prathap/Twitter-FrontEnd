@@ -1,0 +1,96 @@
+.whatHappeningOuter
+{
+    background-color: rgb(247, 249, 249);
+    border-radius: 16px;
+    overflow: hidden;
+}
+.WhatHappeningHeadingDiv
+{
+    padding: 13px 16px;
+}
+.WhatHappeningHeading
+{
+    font-size: 19px;
+    font-family: font4;
+    margin: 0;
+}
+.topContentOuter
+{
+    padding: 10px 16px;
+    cursor: pointer;
+}
+.topContentOuter:hover
+{
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.topContent
+{
+    display: flex;
+    justify-content: space-between;
+}
+.topContentDetails
+{
+    margin-top: 3px;
+}
+.topContentHeadingDiv
+{
+    display: flex;
+}
+.topContentHeadingPart1 , .topContentHeadingPart2
+{
+    font-size: 12px;
+    color: #536471;
+    font-family: font1;
+    margin: 0;
+}
+.centerPointOuter
+{
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 13px;
+    display: flex;
+    align-items: center;
+}
+.centerPoint
+{
+    background-color: #536471;
+    height: 1.5px;
+    width: 1.5px;
+}
+.topContentNoteDiv
+{
+    margin-top: 5px;
+}
+.topContentNote
+{
+    font-size: 14px;
+    font-family: font3;
+    margin: 0;
+}
+.topContentImgDiv
+{
+    height: 65px;
+}
+.topContentImg
+{
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    border-radius: 13px;
+}
+.showMoreOuter
+{
+    padding: 15px 16px;
+    cursor: pointer;
+}
+.showMoreOuter:hover
+{
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.ShowMoreText
+{
+    color: rgb(29, 155, 240);
+    font-size: 14px;
+    font-family: font1;
+    margin: 0;
+}

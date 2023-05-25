@@ -1,0 +1,362 @@
+.twitterBlueOuter
+{
+    display: flex;
+    justify-content: center;
+}
+.twitterBlue
+{
+    width: 600px;
+    height: 601px;
+    position: relative;
+}
+.twitterBlueHeaderOuter
+{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.twitterBlueHeaderOuter
+{
+    padding-top: 8px;
+    padding-bottom: 4.3px;
+}
+.twitterBlueHeader
+{
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+}
+.twitterBlueCloseIcon
+{
+    width: calc(50% - 38px);
+    cursor: pointer;
+}
+.twitterBlueText
+{
+    padding-top: 2px;
+}
+.twitterBlueContentOuter
+{
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-position: 0px -100px;
+    background-image: url("https://abs.twimg.com/sticky/illustrations/twitter_blue_images_v2/background-600W.png");
+}
+.twitterBlueContent
+{
+    padding-left: 68px;
+    padding-right: 68px;
+}
+.twitterBlueBannerOuter
+{
+    padding-top: 23px;
+}
+.twitterBlueBanner
+{
+    padding: 11px 15px;
+    display: flex;
+    background-color: white;
+    border-radius: 12px;
+    padding-bottom: 6px;
+}
+.blueTickNote
+{
+    font-size: 19px;
+    font-family: font4;
+    line-height: 23px;
+    margin: 0;
+    line-height: 23px;
+}
+.blueTickImgDiv
+{
+    padding-right: 1px;
+}
+.blueTickImg
+{
+    width: 146px;
+    height: 92px;
+    object-fit:contain;
+}
+.payOptionOuter
+{
+    margin-top: 23px;
+}
+.payOption
+{
+    background-color: rgb(229, 234, 236);
+    border-radius: 9999px;
+    display: flex;
+    padding: 4px;
+}
+.annualPayOuter
+{
+    max-width: 50%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    margin-right: 19px;
+    cursor: pointer;
+}
+.annualPay
+{
+    display: flex;
+    width: 100%;
+    border-radius: 9999px;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    padding-bottom: 5px;
+}
+.annualPay-1
+{
+    background-color: rgba(255,255,255,1.00);
+}
+.annuallyTextDiv
+{
+    padding-top: 3px;
+}
+.annuallyText
+{
+    font-size: 13px;
+    color: rgb(15, 20, 25);
+    font-family: font4;
+    margin: 0;
+    line-height: 19px;
+}
+.saveMoneyDiv
+{
+    margin-left: 8px;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: rgb(219, 248, 235);
+    border-radius: 9999px;
+    margin-top: 3px;
+}
+.saveMoneyText
+{
+    font-size: 10px;
+    line-height: 19px;
+    font-family: font4;
+    color: rgb(0, 67, 41);
+    margin: 0;
+}
+.monthlyPayOuter
+{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    cursor: pointer;
+    border-radius: 9999px;
+}
+.monthlyPayOuter-1
+{
+    background-color: white;
+}
+.monthlyPayText
+{
+    font-size: 13px;
+    margin: 0;
+    font-family: font3;
+}
+.blueContentOuter
+{
+    margin-top: 23px;
+    cursor: pointer;
+    padding: 4px;
+}
+.blueContentOuter:hover .blueContentTickIconDiv
+{
+    background-color: rgba(29, 155, 240, 0.1);
+}
+.blueContent
+{
+    background-color: white;
+    border: 2px solid rgb(239, 243, 244);
+    border-radius: 12px;
+}
+.blueContentHeadingOuter
+{
+    margin: 11px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+.blueContentHeading
+{
+    display: flex;
+    justify-content: space-between;
+}
+.blueText
+{
+    margin: 0;
+    font-size: 14px;
+    font-family: font3;
+}
+.blueContentTickIconDiv
+{
+    padding: 8px;
+    border-radius: 50%;
+    margin-top: -8.5px;
+    margin-right: -8px;
+}
+.blueContentTickIcon
+{
+    border-radius: 50%;
+    width: 19px;
+    height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(29, 155, 240);
+}
+.blueTickFeaturesOuter
+{
+    margin-left: 11px;
+    margin-right: 11px;
+}
+.blueTickFeaturesList
+{
+    padding-left: 16px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.blueTickFeatureItem
+{
+    font-size: 15px;
+    font-family: font1;
+    color: rgb(15, 20, 25);
+    line-height: 15px;
+    padding-bottom: 8px;
+}
+.learnMoreFeaturesOuter
+{
+    padding: 8px;
+    margin-left: 11px;
+    margin-right: 11px;
+    padding-bottom: 5px;
+    width: fit-content;
+}
+.learnMoreFeaturesOuter-1
+{
+    width:auto;
+}
+.learnMoreFeaturesOuter:hover
+{
+    background-color: rgb(247, 249, 249);
+}
+.learnMoreFeatures
+{
+    display: flex;
+}
+.learnMoreFeatures-1
+{
+    justify-content: space-between;
+}
+.learnMoreFeaturesText
+{
+    font-size: 15px;
+    font-family: font4;
+    margin: 0;
+}
+.learnMoreFeaturesDownArrow
+{
+    margin-left: 11px;
+}
+.learnMoreFeaturesUpArrow
+{
+    transform: rotate(-180deg);
+}
+.blueTickExtraFeaturesListOuter
+{
+    margin-left: 11px;
+    margin-right: 11px;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+.blueTickExtraFeatureOuter
+{
+    margin-bottom: 18px;
+}
+.blueTickExtraFeature
+{
+    display: flex;
+}
+.blueTickExtraFeatureIcon
+{
+    margin-right: 11px;
+}
+.blueTickExtraFeatureHeading
+{
+    margin: 0;
+    font-size: 14px;
+    font-family: font2;
+}
+.blueTickExtraFeatureNote
+{
+    margin: 0;
+    font-size: 14px;
+    font-family: font1;
+    line-height: 19px;
+    color: rgb(83, 100, 113);
+}
+.twitterBlueFooterOuter
+{
+    background-color: white;
+    position: sticky;
+    bottom: 0;
+    box-shadow: rgb(15 20 25 / 15%) 0px 0px 3px, rgb(15 20 25 / 10%) 0px 0px 16px;
+}
+.twitterBlueFooter
+{
+    padding-left: 73px;
+    padding-right: 73px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.payButtonOuter
+{
+    cursor: pointer;
+}
+.payButton
+{
+    height: 34px;
+    background-color: rgb(15, 20, 25);
+    border-radius: 9999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.payAmount
+{
+    font-size: 14px;
+    font-family: font3;
+    color: rgb(255, 255, 255);
+}
+.previousAmount
+{
+    text-decoration: line-through;
+    font-family: font1;
+    padding-right: 1px;
+}
+.twitterBluePolicyDiv
+{
+    margin-top: 12px;
+    padding-left: 1px;
+}
+.twitterBluePolicy
+{
+    font-size: 10px;
+    font-family: font1;
+    color: rgb(83, 100, 113);
+    line-height: 11px;
+}
+.twitterBluePolicyLink
+{
+    color: rgb(29, 155, 240);
+    cursor: pointer;
+}
+.twitterBluePolicyLink:hover
+{
+    text-decoration: underline;
+}

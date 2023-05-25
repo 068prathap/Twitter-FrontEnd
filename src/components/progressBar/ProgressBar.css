@@ -1,0 +1,23 @@
+.progress-bar {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .progress-bar-1 {
+    width: 32px;
+    height: 32px;
+ }
+ 
+ .tweet-limit {
+    font-size: 13px;
+    font-family: font1;
+    color: rgb(83, 100, 113);
+ }
+ 
+ .tweet-limit-1{
+    color: rgb(244, 33, 46);
+ }

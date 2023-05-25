@@ -1,0 +1,106 @@
+.input_box
+{
+    margin-top: 30px;
+    border: 1px solid rgb(207, 217, 222);
+    border-radius: 4px;
+    overflow: hidden;
+    height: 53px;
+    position: relative;
+}
+.input_phone .input_box
+{
+    margin-top: 24px;
+}
+.input_box-1
+{
+    border: 2px solid rgb(29, 155, 240);
+}
+.input_box-2
+{
+    border: 2px solid #f4212e;
+}
+.input_box-3
+{
+    border: 1px solid #f4212e;
+}
+.input_label
+{
+    font-size: 16px;
+    font-family: font1;
+    color: rgb(83, 100, 113);
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 8px;
+}
+.inputlabel
+{
+    position: absolute;
+    font-size: 16px;
+    font-family: font1;
+    color: rgb(83, 100, 113);
+    margin-top: 17px;
+    margin-left: 8px;
+}
+.input_label-1
+{
+    font-size: small;
+    margin-top: 7px;
+    color:rgb(29, 155, 240);
+}
+.input_label-2
+{
+    font-size: small;
+    margin-top: 7px;
+}
+.input_label-3
+{
+    color: #f4212e;
+}
+.input_count
+{
+    display: none;
+    justify-content: right;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-family: font1;
+    color: rgb(83, 100, 113);
+    margin-top: 8px;
+    margin-right: 8px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.input
+{
+    border: none;
+    outline: none;
+    margin-left: 6px;
+    height: 19px;
+    margin-top: 25px;
+    width: 95%;
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-family: font1;
+}
+.input-1
+{
+    /* margin-top: 0px; */
+}
+.invalid_input p
+{
+    font-size: 12px;
+    color: #f4212e;
+    font-family: font1;
+    margin-top: 2px;
+    margin-bottom: 0;
+    margin-left: 8px;
+}
+.invalid_input
+{
+    display: none;
+}
+.invalid_input-1
+{
+    display: block;
+}

@@ -1,0 +1,42 @@
+.okButton
+{
+    background-color: rgb(15, 20, 25);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    height: 42px;
+    margin-top: 23px;
+    margin-bottom: 11px;
+}
+.okButton:hover
+{
+    background-color: rgb(39,44,48);
+}
+.okButton p
+{
+    font-size: 14px;
+    color: #ffffff;
+    font-family: font3;
+}
+.editButton
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid rgb(207, 217, 222);
+    border-radius: 9999px;
+    box-sizing: border-box;
+    height: 42px;
+}
+.editButton:hover
+{
+    background-color: rgb(15,20,25,0.1);
+}
+.editButton p
+{
+    font-size: 14px;
+    font-family: font3;
+}

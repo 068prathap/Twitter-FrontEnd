@@ -1,0 +1,21 @@
+.addTweetIconDiv {
+    min-width: 23px;
+    min-height: 23px;
+    border: 1px solid rgb(207, 217, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-sizing: border-box;
+    cursor: pointer;
+ }
+ 
+ .addTweetIconDiv:hover{
+    background-color: rgb(29, 155, 240,0.1);
+ }
+ 
+ .addTweetIcon {
+    width: 15px;
+    height: 15px;
+ }
+ 

@@ -1,0 +1,185 @@
+.profilePageHeaderOuter {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.profilePageHeader {
+    display: flex;
+    padding: 3px 15px;
+    align-items: center;
+    padding-bottom: 4px;
+}
+
+.profilePageBackIcon {
+    padding-right: 34px;
+    padding-top: 5px;
+}
+
+.profileHeaderName {
+    font-size: 19px;
+    margin: 0;
+    font-family: font3;
+    line-height: 23px;
+    padding-bottom: 4px;
+}
+
+.profileTweetsCount {
+    color: rgb(83, 100, 113);
+    font-size: 12px;
+    margin: 0;
+    font-family: font1;
+    line-height: 15px;
+}
+.profilePageBigImgDiv
+{
+    width: 100%;
+}
+.profilePageBigImgDiv-1
+{
+    background-color: rgb(207, 217, 222);
+    padding-bottom: 33.3333%;
+}
+.profilePageBigImg {
+    width: 100%;
+}
+
+.profilePageEditOuter {
+    padding: 6px 15px;
+}
+.profilePageEditOuter-1
+{
+    margin-top: 5px;
+}
+
+.profilePageEdit {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profilePagePrfileImgDiv {
+    margin-top: -15%;
+    width: 23.6%;
+}
+
+.profilePageProfileImg {
+    border-radius: 50%;
+    border: 4px solid white;
+    width: 100%;
+}
+
+.profilePageEditeButton {
+    border: 1px solid rgb(207, 217, 222);
+    border-radius: 9999px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.profilePageEditeButton:hover
+{
+    background-color: rgba(15, 20, 25, 0.1);
+}
+
+.profilePageEditeButtonText {
+    padding: 0px 15px;
+    margin: 0;
+    font-size: 14px;
+    font-family: font3;
+    line-height: 19px;
+    margin-top: 2px;
+}
+.profilePageDetailsOuter
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+}
+.profilePageName
+{
+    font-size: 19px;
+    margin: 0;
+    line-height: 23px;
+    font-family: font4;
+    padding-bottom: 2px;
+}
+.profilePageUserName
+{
+    font-size: 14px;
+    font-family: font1;
+    margin: 0;
+    color: rgb(83, 100, 113);
+}
+.profilePageBioOuter
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 18px;
+    margin-bottom: 11px;
+}
+.profilePageBioText
+{
+    font-size: 14px;
+    font-family: font1;
+    margin: 0;
+}
+.profilePagePersonalDetailsOuter
+{
+    margin-bottom: 10px;
+}
+.profilePagePersonalDetails
+{
+    display: flex;
+    padding-left: 15px;
+    color:rgb(83, 100, 113);
+    flex-wrap: wrap;
+}
+.profilePageLocationDiv,.profilePageDOBDiv,.profilePageJoinDataDiv
+{
+    display: flex;
+    align-items: center;
+    margin-right: 11px;
+}
+.profilePageLocationIcon,.profilePageDOBIcon,.profilePageJoinDateIcon
+{
+    margin-right: 4px;
+    height: fit-content;
+    margin-top: 2px;
+}
+.profilePageLocation,.profilePageDOB,.profilePageJoinDate
+{
+    margin: 0;
+    font-family: font1;
+    font-size: 14px;
+}
+.followerFollowingCount{
+    display: flex;
+    color:rgb(83, 100, 113);
+    padding-left: 15px;
+}
+.followingCountText{
+    margin: 0;
+    margin-right: 19px;
+    font-family: font1;
+    font-size: 13px;
+}
+.followerCountText{
+    font-size: 13px;
+    font-family: font1;
+    margin: 0;
+}
+.followerCount, .followingCount
+{
+    font-family: font3;
+    color: rgb(15, 20, 25);
+}
+.pofilePageTopNavbarOuter
+{
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(239, 243, 244);
+}
+.pofilePageTopNavbar
+{
+    display: flex;
+}

@@ -1,0 +1,17 @@
+.suggestedUserOuter
+{
+    padding: 11px 15px;
+    cursor: pointer;
+    /* position: relative; */
+    
+}
+.suggestedUserOuter:hover
+{
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.suggestedUser
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

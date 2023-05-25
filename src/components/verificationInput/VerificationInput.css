@@ -1,0 +1,66 @@
+.otp_code
+{
+    border: 1px solid rgb(207, 217, 222);
+    overflow: hidden;
+    border-radius: 4px;
+    position: relative;
+}
+.code-1
+{
+    border: 2px solid rgb(29, 155, 240);
+}
+.codeLabel
+{
+    color: rgb(83, 100, 113);
+    font-size: 16px;
+    font-family: font1;
+    padding-top: 17px;
+    padding-left: 8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: absolute;
+    z-index: 1000;
+}
+.codeLabel-1
+{
+    color: rgb(29, 155, 240);
+    font-size: small;
+    padding-top: 7px;
+}
+.codeLabel-2
+{
+    color: rgb(83, 100, 113);
+}
+.otp_code input
+{
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    position: relative;
+    margin-top: 15px;
+    padding: 11px 0px 8px 9px;
+    font-family: font1;
+}
+.otp_code textarea
+{
+    border: none;
+    outline: none;
+    width: 97%;
+    font-size: 16px;
+    position: relative;
+    margin-top: 19px;
+    padding: 7px 0px 6px 9px;
+    font-family: font1;
+    height: 54px;
+}
+.input_count-1
+{
+    position: absolute;
+    right: 0;
+}
+.editProfileInputBox
+{
+    margin-top: 19px !important;
+    padding: 7px 0px 8px 9px !important;
+}

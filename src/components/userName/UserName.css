@@ -1,0 +1,34 @@
+.userNameIntro
+{
+    padding-left: 76px;
+    padding-right: 76px;
+}
+.userNameTitle
+{
+    font-size: 29px;
+    font-family: font3;
+    color: #0f1419;
+    margin-top: 18px;
+    margin-bottom: 0px;
+}
+.userNameNote
+{
+    font-size: 14px;
+    font-family: font1;
+    color: #536471;
+    margin-top: 9px;
+}
+.userNameInput
+{
+    padding-left: 76px;
+    padding-right: 76px;
+    margin-top: 18px;
+}
+.incorrectUserName
+{
+    padding: 0px 76px 0px 84px;
+    margin-top: 0px;
+    color: #f4212e;
+    font-size: 12px;
+    font-family: font1;
+}

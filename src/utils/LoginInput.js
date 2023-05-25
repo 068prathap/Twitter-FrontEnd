@@ -1,0 +1,44 @@
+export function Onfocus(loginInputBox,loginInputLabl)
+{
+    loginInputBox.current.classList.add('loginInputBox-1');
+    loginInputLabl.current.classList.add('loginInputLabl-1');
+    loginInputBox.current.classList.remove('loginInputBox-2');
+    loginInputLabl.current.classList.remove('loginInputLabl-2');
+}
+export function Onblur(loginInputBox,loginInputLabl,loginInputTag)
+{
+    if(loginInputTag.current.value=='')
+    {
+        loginInputBox.current.classList.remove('loginInputBox-1');
+        loginInputLabl.current.classList.remove('loginInputLabl-1');
+    }
+    else
+    {
+        loginInputBox.current.classList.add('loginInputBox-2');
+        loginInputLabl.current.classList.add('loginInputLabl-2');
+    }
+}
+export function Onchange(setUserAccount,loginInputTag,setActivation,setButtonChange,work,setButtonText,setButtonClass)
+{
+    setUserAccount(loginInputTag.current.value);
+    if(loginInputTag.current.value=='')
+    {
+        setActivation(false);
+        setButtonChange(false);
+        if(work=='forgotCode')
+        {
+            setButtonText('Back');
+            setButtonClass('skipProfile');
+        }
+    }
+    else
+    {
+        if(work=='forgotCode')
+        {
+            setButtonText('Next');
+            setButtonClass('Next-1')
+        }
+        setActivation(true);
+        setButtonChange(true);
+    }
+}

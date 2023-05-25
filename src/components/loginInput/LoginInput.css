@@ -1,0 +1,43 @@
+.loginInputBox
+{
+    border: 1px solid rgb(207, 217, 222);
+    overflow: hidden;
+    border-radius: 4px;
+}
+.loginInputBox-1
+{
+    border: 2px solid rgb(29, 155, 240);
+}
+.loginInputBox-2
+{
+    border: 1px solid rgb(207, 217, 222);
+}
+.loginInputLabl
+{
+    position: absolute;
+    color: rgb(83, 100, 113);
+    font-size: 16px;
+    font-family: font1;
+    padding: 17px 0px 0px 8px;
+    margin: 0;
+}
+.loginInputLabl-1
+{
+    color: rgb(29, 155, 240);
+    font-size: small;
+    padding-top: 8px;
+}
+.loginInputLabl-2
+{
+    color: rgb(83, 100, 113);
+}
+.loginInputBox input
+{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 12px 8px 8px 8px;
+    margin-top: 15px;
+    z-index: 200000;
+    font-size: 16px;
+}

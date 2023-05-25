@@ -1,0 +1,43 @@
+.confrimInput
+{
+    width: 100%;
+    border: 1px solid rgb(207, 217, 222);
+    border-radius: 4px;
+    margin-top: 24px;
+    overflow: hidden;
+}
+.confrimInput0
+{
+    margin-top: 30px;
+}
+.confrimInputLabel
+{
+    padding-left: 8px;
+    padding-top: 6px;
+}
+.confrimInput label
+{
+    font-size: 13px;
+    font-family: font1;
+    color: #536471;
+}
+.confrimInputInputArea
+{
+    padding: 1px 8px 7px 6px;
+    display: flex;
+}
+.confrimInputInputArea input
+{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: rgb(15, 20, 25);
+    font-family: font1;
+}
+.confrimInputInputArea img
+{
+    height: 20px;
+    width: 16.656px;
+    padding-top: 2px;
+}

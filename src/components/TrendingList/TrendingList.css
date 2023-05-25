@@ -1,0 +1,122 @@
+.TrendingContentOuterDiv
+{
+    position: relative;
+}
+.TrendingContentOuter
+{
+    padding: 11px 16px;
+    cursor: pointer;
+}
+.TrendingContentOuter:hover
+{
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.trendingContentDiv
+{
+    display: flex;
+    justify-content: space-between;
+}
+.trendingContentHeading
+{
+    margin: 0;
+    font-size: 12px;
+    font-family: font1;
+    color: rgb(83, 100, 113);
+    line-height: 15px;
+}
+.trendingContentNameDiv
+{
+    margin-top: 3px;
+}
+.trendingContentName
+{
+    margin: 0;
+    font-size: 14px;
+    font-family: font3;
+    color: rgb(15, 20, 25);
+    line-height: 19px;
+}
+.trendingContentCountDiv
+{
+    margin-top: 4px;
+}
+.trendingContentCount
+{
+    margin: 0;
+    font-size: 12px;
+    font-family: font1;
+    color: rgb(83, 100, 113);
+    line-height: 15px;
+}
+.trendingContentEditOption
+{
+    margin-top: -5.5px;
+    margin-right: -8px;
+}
+.trendingContentEditOptionIconDiv
+{
+    height: 33.5px;
+    width: 33.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9999px;
+}
+.trendingContentEditOptionIconDiv:hover
+{
+    background-color: rgba(29, 155, 240, 0.1);
+}
+.trendingContentEditOptionIcon
+{
+    height: 17.5px;
+}
+.trendingOpinionDialogBoxOuter
+{
+    box-shadow: rgb(101 119 134 / 20%) 0px 0px 15px, rgb(101 119 134 / 15%) 0px 0px 3px 1px;
+    position: absolute;
+    z-index: 3;
+    top: 13px;
+    right: 16px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.lowZ-index
+{
+    z-index: 0;
+}
+.trendingOpinionDialogBox
+{
+    background-color: rgba(255,255,255,1.00);
+}
+.opinion1
+{
+    display: flex;
+    padding: 12px 15px 10px 14px;
+    cursor: pointer;
+    height: 19px;
+}
+.opinion1:hover
+{
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.opinion2
+{
+    display: flex;
+    padding: 12px 15px 10px 14px;
+    height: 19px;
+}
+.opinion2:hover
+{
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.sadEmoji
+{
+    padding-right: 10px;
+}
+.opinionText
+{
+    margin: 0;
+    font-size: 14px;
+    font-family: font3;
+    color: rgb(15, 20, 25);
+}

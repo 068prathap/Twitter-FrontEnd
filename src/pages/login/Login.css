@@ -1,0 +1,33 @@
+.loginPageOuterFormat
+{
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginPageInnerFormat
+{
+    min-width: 600px;
+    height: 602px;
+    min-height: 602px;
+    background-color: white;
+    position: relative;
+}
+.loginOptions
+{
+    /* display: none; */
+}
+.loginPassword
+{
+    display: none;
+}
+
+@media only screen and (max-width: 700px)
+{
+    .login:nth-child(3) .MuiPaper-root
+    {
+        min-width: 100vw;
+        min-height: 100vh;
+        border-radius: 0px !important;
+    }
+}

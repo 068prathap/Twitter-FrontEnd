@@ -1,0 +1,132 @@
+.homeTopNavbar
+{
+    /* height: 100%; */
+}
+.homeTopNavbar p
+{
+    margin: 0;
+}
+.profileAndLogoHeadingOuter
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    display: none;
+}
+.profileAndLogoHeading
+{
+    display: flex;
+    width: 100%;
+}
+.profileImgHeadingDiv
+{
+    padding-top: 9px;
+    width: calc(50% - 11px);
+}
+.profileImgHeading
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.logoHeadingDiv
+{
+    width: 50%;
+}
+.logoHeading
+{
+    width: 23px;
+    height: 50px;
+}
+.homeTitle
+{
+    padding-left: 15px;
+    padding-top: 13px;
+    margin-bottom: 13px;
+}
+.homeTitleName
+{
+    font-size: 19px;
+    font-family: font3;
+}
+.homeNavList
+{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 18px;
+    position: sticky;
+    top: 0;
+    /* height: 100%; */
+}
+.foryouNavDiv
+{
+    min-width: 56px;
+    cursor: pointer;
+}
+.foryouNavText
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 12px;
+}
+.foryouNav
+{
+    font-size: 14px;
+    font-family: font3;
+    color: #536471;
+}
+.foryouNavLine
+{
+    height: 4px;
+    background-color: rgb(29, 155, 240);
+    border-radius: 4px;
+}
+.followingNavDiv
+{
+    min-width: 56px;
+    cursor: pointer;
+}
+.followingNavText
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 12px;
+}
+.followingNav
+{
+    font-size: 14px;
+    font-family: font3;
+    color: rgb(83, 100, 113);
+}
+.followingNavLine
+{
+    height: 4px;
+    background-color: rgb(29, 155, 240);
+    border-radius: 4px;
+}
+.Nav-1
+{
+    color: rgb(15, 20, 25);
+    font-weight: 700;
+}
+.NavLine-1
+{
+    display: none;
+}
+
+@media only screen and (max-width: 500px)
+{
+    .profileAndLogoHeadingOuter
+    {
+        display: block;
+    }
+    .homeTitle
+    {
+        display: none;
+    }
+    .homeNavList
+    {
+        padding-top: 10px;
+    }
+}

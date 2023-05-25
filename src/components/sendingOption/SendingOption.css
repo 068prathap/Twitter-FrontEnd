@@ -1,0 +1,54 @@
+.tweetingAreaSendingOption {
+   border: 1px solid rgb(207, 217, 222);
+   width: fit-content;
+   padding-left: 11px;
+   padding-right: 11px;
+   min-height: 23px;
+   display: flex;
+   align-items: center;
+   border-radius: 9999px;
+   box-sizing: border-box;
+   cursor: pointer;
+}
+
+.tweetingAreaSendingOption-1 {
+   border: 1px solid rgb(0, 186, 124);
+}
+
+.tweetingAreaSendingOption:hover {
+   background-color: rgb(29, 155, 240, 0.1);
+}
+
+.tweetingAreaSendingOption-1:hover {
+   background-color: rgb(0, 186, 124, 0.1);
+}
+
+.tweetingAreaSendingOptionInner {
+   display: flex;
+}
+
+.sendingOptionText {
+   margin: 0;
+   color: rgb(29, 155, 240);
+   font-size: 13px;
+   font-family: font3;
+}
+.sendingOptionText-1
+{
+   color: rgb(0, 186, 124);
+}
+
+.sendingOptionListIconDiv {
+   display: flex;
+   margin-left: 4px;
+   align-items: center;
+}
+
+.sendingOptionListIcon {
+   width: 15px;
+   height: 15px;
+}
+.sendingOptionListIcon-1
+{
+   display: none;
+}

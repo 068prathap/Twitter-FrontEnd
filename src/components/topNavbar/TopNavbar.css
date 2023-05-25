@@ -1,0 +1,42 @@
+.topNavTopicDivOuter
+{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+.topNavTopicDivOuter:hover
+{
+    background-color: rgba(15, 20, 25, 0.1);
+}
+.topNavTopicDiv
+{
+    min-width: 56px;
+}
+.topNavTopicTextDiv
+{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 13px;
+    padding-top: 13px;
+}
+.topNavTopic
+{
+    font-size: 14px;
+    color: rgb(83, 100, 113);
+    font-family: font3;
+    margin: 0;
+}
+.topNavTopicActive
+{
+    color: rgb(15, 20, 25);
+}
+@media only screen and (max-width: 370px)
+{
+    .topNavTopicDiv
+    {
+        min-width: 0px;
+    }
+}

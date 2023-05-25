@@ -1,0 +1,102 @@
+export function OnFocus(password,passwordLabel)
+{
+    password.current.classList.add('passwordInput-1');
+    passwordLabel.current.classList.add('passwordLabel-1');
+    passwordLabel.current.classList.remove('passwordLabel-2');
+    if(password.current.classList.contains('passwordInput-3'))
+    {
+        passwordLabel.current.classList.add('passwordLabel-3');
+        password.current.classList.remove('passwordInput-3');
+        password.current.classList.add('passwordInput-2');
+    }
+}
+
+export function OnBlur(password,passwordLabel,passwordInput)
+{
+    if(passwordInput.current.value=='')
+    {
+        passwordLabel.current.classList.remove('passwordLabel-1');
+        if(password.current.classList.contains('passwordInput-2'))
+        {
+            password.current.classList.add('passwordInput-3');
+        }   
+        passwordLabel.current.classList.remove('passwordLabel-3');
+    }
+    else
+    {
+        passwordLabel.current.classList.add('passwordLabel-2');
+        if(password.current.classList.contains('passwordInput-2'))
+        {
+            password.current.classList.add('passwordInput-3');
+        }
+    }
+    password.current.classList.remove('passwordInput-1');
+}
+
+export function OnChange(passwordInput,setButtonChange,setButtonActive,passwordNeeds,password,passwordLabel,setPassword,purpose,password2)
+{
+    setPassword(passwordInput.current.value);
+    if(passwordInput.current.value.length>=8)
+    {
+        setButtonChange(true);
+        setButtonActive(true);
+        passwordNeeds.current.style.display='none';
+        password.current.classList.remove('passwordInput-2');
+        passwordLabel.current.classList.remove('passwordLabel-3');
+        if(purpose=='checking' && password2!=passwordInput.current.value)
+        {
+            setButtonChange(false);
+            setButtonActive(false);
+        }
+    }
+    else
+    {
+        setButtonChange(false);
+        setButtonActive(false);
+        passwordNeeds.current.style.display='block';
+        password.current.classList.add('passwordInput-2');
+        passwordLabel.current.classList.add('passwordLabel-3');
+    }
+}
+
+export function passwordTypeChange(passwordType,setPasswordType)
+{
+    setPasswordType(passwordType=='password'?'text':'password')
+}
+export function checking(password1,passwordInput,passwordNeeds,password,passwordLabel,in_out,setPassword,setButtonChange,setButtonActive)
+{
+    if(password1!=passwordInput.current.value)
+    {
+        passwordNeeds.current.style.display='block';
+        if(in_out=='out')
+        {
+            password.current.classList.remove('passwordInput-2');
+            password.current.classList.add('passwordInput-3');
+            if(passwordInput.current.value!='')
+            {
+                passwordLabel.current.classList.add('passwordLabel-3');
+            }
+        }
+        else
+        {
+            password.current.classList.remove('passwordInput-3');
+            password.current.classList.add('passwordInput-2');
+            passwordLabel.current.classList.add('passwordLabel-3');
+        }
+        setButtonChange(false);
+        setButtonActive(false);
+    }
+    else
+    {
+        passwordNeeds.current.style.display='none';
+        password.current.classList.remove('passwordInput-3');
+        passwordLabel.current.classList.remove('passwordLabel-3');
+        password.current.classList.remove('passwordInput-2');
+        if(password1.length>=8)
+        {
+            setButtonChange(true);
+            setButtonActive(true);
+        }   
+    }
+    setPassword(passwordInput.current.value);
+}

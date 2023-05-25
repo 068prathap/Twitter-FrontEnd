@@ -1,0 +1,54 @@
+.codeVerification
+{
+    padding-left: 76px;
+    padding-right: 76px;
+}
+.verificationTitle
+{
+    font-size: 29px;
+    font-family: font3;
+    color: #0f1419;
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+.verificationNote
+{
+    font-size: 14px;
+    font-family: font1;
+    color: #536471;
+    margin-top: 9px;
+}
+.verificationCode
+{
+    margin-top: 32px;
+}
+.codeNotsend
+{
+    font-size: 12px;
+    font-family: font1;
+    color: rgb(29, 155, 240);
+    margin-top: 2px;
+    padding-left: 8px;
+    cursor: pointer;
+}
+.codeNotsend:hover
+{
+    text-decoration: underline;
+}
+.codeIncorrectNote
+{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(29, 155, 240);
+    border-radius: 5px;
+    margin-bottom: 30px;
+    display: none;
+}
+.codeIncorrectNote p
+{
+    padding-left: 22px;
+    padding-right: 22px;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: font1;
+}

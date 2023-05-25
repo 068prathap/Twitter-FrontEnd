@@ -1,0 +1,43 @@
+.loginWithGoogle
+{
+    display: flex;
+    border: 1px solid rgb(207, 217, 222);
+    border-radius: 9999px;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    cursor: pointer;
+}
+.loginWithGoogle:hover
+{
+    background-color: rgba(66,133,244,.04);
+    border-color: #d2e3fc;
+}
+.loginWithApple
+{
+    display: flex;
+    border: 1px solid rgb(207, 217, 222);
+    border-radius: 9999px;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    cursor: pointer;
+}
+.loginWithApple:hover
+{
+    background-color: rgb(230,230,230);
+}
+.loginWithGoogle img,.loginWithApple img
+{
+    width: 18px;
+    height: 18px;
+    margin-right: 4px;
+}
+.loginWithApple p
+{
+    font-size: 14px;
+    color: #0f1419;
+    font-family: font3;
+    margin-top: 0;
+    margin-bottom: 0;
+}

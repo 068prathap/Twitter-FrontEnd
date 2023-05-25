@@ -1,0 +1,169 @@
+.sideNavbarDiv
+{
+    padding-left: 8px;
+    position: relative;
+    height: 100%;
+    padding-top: 13px;
+    box-sizing: border-box;
+    min-height: 530px;
+}
+.sideNavbarTwitterLogoDiv
+{
+    padding-left: 1px;
+}
+.sideNavbarTwitterLogo
+{
+    width: 47px;
+    height: 28px;
+}
+.sideNavbarTabs
+{
+    margin-top: 13px;
+}
+.tweetButtonOuter
+{
+    width: 87%;
+    margin-left: 0px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+.tweetButton
+{
+    background-color: #1d9bf0;
+    display: flex;
+    justify-content: center;
+    border-radius: 9999px;
+    height: 49px;
+}
+.tweetButtonText
+{
+    font-size: 16px;
+    font-family: font3;
+    color: white;
+}
+.tweetButtonIcon
+{
+    display: none;
+    width: 23px;
+    height: 23px;
+}
+.userAccount
+{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 86%;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.userProfileImg
+{
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+}
+.userData
+{
+    padding-left: 12px;
+}
+.userAccountName
+{
+    margin: 0;
+    font-size: 14px;
+    font-family: font3;
+    margin-top: -2px;
+}
+.userNickName
+{
+    margin: 0;
+    font-size: 14px;
+    font-family: font1;
+    color: #536471;
+    margin-top: 4px;
+}
+.threeDots
+{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    margin-top: 8px;
+    margin-right: -1px;
+}
+.threeDotsImg
+{
+    width: 16.5px;
+    height: 16.5px;
+}
+
+@media only screen and (max-height: 660px)
+{
+    .sideNavbarTabs
+    {
+        margin-top: 9px;
+    }
+    .tweetButtonOuter
+    {
+        margin-top: 8px;
+    }
+}
+@media only screen and (max-width: 1270px)
+{
+    .sideNavbarDiv
+    {
+        display: flex;
+        justify-content: center;
+        padding-left: 0px;
+    }
+    .sideNavbarTabs
+    {
+        padding-left: 1px;
+    }
+    .tweetButtonOuter
+    {
+        width: 49px;
+        height: 49px;
+        margin-left: -1px;
+    }
+    .tweetButton
+    {
+        background-color: #1d9bf0;
+        display: flex;
+        justify-content: center;
+        border-radius: 9999px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tweetButtonText
+    {
+        display: none;
+    }
+    .tweetButtonIcon
+    {
+        display: block;
+    }
+    .userData
+    {
+        display: none;
+    }
+    .threeDots
+    {
+        display: none;
+    }
+    .userAccount
+    {
+        width:auto;
+        padding-left: 5px;
+    }
+}
+@media only screen and (max-width: 990px)
+{
+    .sideNavbarDiv
+    {
+        width: 88px;
+        display: flex;
+        justify-content: right;
+        padding-right: 20px;
+    }
+}

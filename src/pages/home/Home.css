@@ -1,0 +1,316 @@
+.pageOuter
+{
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+}
+.home
+{
+    display: flex;
+}
+.sideNavbarTag
+{
+    width: 275px;
+}
+.sideNavbarTagPositionFixed
+{
+    position: fixed;
+    overflow-y: auto;
+    height: 100vh;
+    width: 275px;
+}
+.middleAndRightPage
+{
+    width: 990px;
+    display: flex;
+}
+.middlepage
+{
+    max-width: 600px;
+    width: 100%;
+    margin-right: 30px;
+    border: 1px solid rgb(239, 243, 244);
+    box-sizing: border-box;
+    border-bottom: none;
+}
+.rightSideContentTagOuter
+{
+    width: 350px;
+    box-sizing: border-box;
+}
+.rightSideContentTag
+{
+    width: 350px;
+    height: 100%;
+}
+.bottomNavbarOuter
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255,255,255,1.00);
+    display: none;
+}
+.bottomNavbar
+{
+    max-width: 1000px;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+}
+.bottomNavbar img
+{
+    width: 24.5px;
+    height: 28px;
+    justify-content: center;
+}
+.bottomIconDiv
+{
+    padding:6px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.floatingTweetButtonOuter
+{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding-right: 159px;
+    padding-bottom: 69px;
+    cursor: pointer;
+    display: none;
+}
+.floatingTweetButton
+{
+    background-color: #1d9bf0;
+    border-radius: 9999px;
+    height: 49px;
+    display: flex;
+    align-items: center;
+}
+.floatingTweetButtonText
+{
+    display: flex;
+    padding: 0px 30px;
+    align-items: center;
+}
+.floatingTweetButtonText img
+{
+    width: 23px;
+    height: 23px;
+    margin-right: 8px;
+}
+.floatingTweetButtonText p
+{
+    margin: 0;
+    font-size: 16px;
+    color: white;
+    font-family: font3;
+}
+.coveringDiv
+{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 2;
+    display: none;
+}
+.coveringDiv-1
+{
+    display: block;
+}
+.greyCoveringDiv
+{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.membersTag
+{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+@media only screen and (max-width: 1270px)
+{
+    .sideNavbarTag
+    {
+        width: 88px;
+    }
+    .sideNavbarTagPositionFixed
+    {
+        width: 88px;
+    }
+}
+@media only screen and (max-width: 1080px)
+{
+    .middleAndRightPage
+    {
+        width: 920px;
+    }
+    .rightSideContentTag
+    {
+        width: 290px;
+        /* margin-right: 10px; */
+    }
+    .xyz
+    {
+        width: 290px;
+    }
+    .middlepage
+    {
+        margin-right: 20px;
+    }
+
+}
+@media only screen and (max-width: 1010px)
+{
+    .sideNavbarTag
+    {
+        width: 68px;
+    }
+    .sideNavbarTagPositionFixed
+    {
+        width: 68px;
+    }
+}
+@media only screen and (max-width: 990px)
+{
+    .home
+    {
+        flex-grow: 1;
+    }
+    .middleAndRightPage
+    {
+        width: 600px;
+        flex-grow: 2;
+    }
+    .rightSideContentTagOuter
+    {
+        display: none;
+    }
+    .sideNavbarTag
+    {
+        width: 88px;
+        flex-grow: 1;
+        display: flex;
+        justify-content: right;
+    }
+    .sideNavbarTagPositionFixed
+    {
+        width: 88px;
+    }
+    .middlepage
+    {
+        margin-right: 0px;
+    }
+}
+@media only screen and (max-height: 500px)
+{
+    .sideNavbarTag
+    {
+        display: none;
+    }   
+    .middlepage
+    {
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+    .bottomNavbarOuter
+    {
+        display: flex;
+    }
+    .floatingTweetButtonOuter
+    {
+        display: block;
+    }
+}
+@media only screen and (max-height: 500px) and (max-width: 990px)
+{
+    .bottomNavbar
+    {
+        max-width: 600px;
+    }
+    .floatingTweetButtonOuter
+    {
+        padding-right: 19px;
+    }
+    .middleAndRightPage
+    {
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 800px)
+{
+    .floatingTweetButtonOuter
+    {
+        padding-right: 19px;
+    }
+    .floatingTweetButtonOuter p
+    {
+        display: none;
+    }
+    .floatingTweetButton
+    {
+        height: 53px;
+    }
+    .floatingTweetButtonText
+    {
+        padding: 0px 15px;
+    }
+    .floatingTweetButtonText img
+    {
+        margin-right: 0px;
+    }
+}
+@media only screen and (max-width: 700px)
+{
+    .middleAndRightPage
+    {
+        width: 100%;
+    }
+    .middlepage
+    {
+        max-width: none;
+    }
+    .contentAreaTag
+    {
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width: 500px)
+{
+    .sideNavbarTag
+    {
+        display: none;
+    }
+    .bottomNavbarOuter
+    {
+        display: flex;
+    }
+    .floatingTweetButtonOuter
+    {
+        display: block;
+    }
+}
+@media only screen and (max-width: 700px)
+{
+    #membersDialogTag:nth-child(3) .MuiPaper-root
+    {
+        margin: 0;
+        min-height: 100vh;
+        border-radius: 0 !important;
+        min-width: 100vw;
+    }
+    .MuiPaper-root
+    {
+        min-width: 100vw !important;
+        min-height: 100vh;
+        border-radius: 0 !important;
+    }
+}

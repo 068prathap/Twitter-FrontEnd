@@ -1,0 +1,98 @@
+.header_in_signup
+{
+    display: flex;
+}
+.personal_access
+{
+    display: flex;
+    justify-content: center;
+}
+.personal_access1
+{
+    max-width: 600px;
+    margin-top: -17px;
+}
+.personal_access2
+{
+    padding-left: 76px;
+    padding-right: 76px;
+}
+.customise_title p
+{
+    font-size: 29px;
+    font-family: font3;
+}
+.track_note
+{
+    margin-top: 38px;
+}
+.track_note p
+{
+    font-size: 19px;
+    font-family: font3;
+}
+.choose_checkbox
+{
+    display: flex;
+    margin-top: -8px;
+}
+.checkbox_note p
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-family: font1;
+    line-height: 19px;
+}
+.checkboxOuter
+{
+    height: fit-content;
+    padding: 8px;
+    margin-top: -8px;
+    margin-right: -8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.checkboxOuter:hover
+{
+    background-color: rgb(83,100,113,0.1);
+}
+.checkboxOuter-1:hover
+{
+    background-color: rgb(29, 155, 240,0.1);
+}
+.checkbox
+{
+    border: 2px solid rgb(83, 100, 113);
+    border-radius: 4px;
+    width: 19px;
+    height: 19px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.checkbox-1
+{
+    background-color: rgb(29, 155, 240);
+    border: none;
+    width: 19px;
+    height: 19px;
+}
+.termsprivacy p
+{
+    color: rgb(83, 100, 113);
+    font-size: 14px;
+    font-family: font1;
+    line-height: 19px;
+    margin-top: 38px;
+}
+.termsprivacy a
+{
+    text-decoration: none;
+    color: rgb(29, 155, 240);
+}
+.termsprivacy a:hover
+{
+    text-decoration: underline;
+}

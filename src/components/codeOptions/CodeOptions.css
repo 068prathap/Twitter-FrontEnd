@@ -1,0 +1,96 @@
+.codeOptionsContent
+{
+    padding: 0px 76px;
+}
+.codeOptionsTitle
+{
+    font-size: 29px;
+    font-family: font3;
+    margin-top: 19px;
+    line-height: 34px;
+    margin-bottom: 0px;
+}
+.codeOptionsNote
+{
+    font-size: 14px;
+    font-family: font1;
+    color: #536471;
+    line-height: 19px;
+}
+.codeOptionsNote0
+{
+    margin-top: 8px;
+}
+.codeOptionsNote1
+{
+    margin-top: 19px;
+}
+.emailList
+{
+    font-size: 14px;
+    font-family: font3;
+    margin-top: 31px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.emailText
+{
+    margin: 0;
+}
+.radioButtonOuter
+{
+    padding: 8px;
+    margin-right: 7px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -9px;
+}
+.radioButtonOuter:hover
+{
+    background-color: rgba(83, 100, 113, 0.1);
+}
+.radioButtonOuter-1:hover
+{
+    background-color: rgba(29, 155, 240, 0.1);
+}
+.radioButton
+{
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(83, 100, 113);
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: white;
+}
+.radioButton-1
+{
+    background-color: #1d9bf0;
+    border-width: 0;
+}
+.twitterSupport
+{
+    font-size: 14px;
+    font-family: font1;
+    color: #0f1419;
+    margin-top: 23px;
+}
+.twitterSupport p span
+{
+    color: #1d9bf0;
+    cursor: pointer;
+}
+.twitterSupport p span:hover
+{
+    text-decoration: underline;
+}
+.topButton
+{
+    margin-bottom: 90px;
+}

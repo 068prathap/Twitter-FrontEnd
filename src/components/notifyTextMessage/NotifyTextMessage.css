@@ -1,0 +1,27 @@
+.messageOuter
+{
+    padding: 11px 15px;
+    border-bottom: 1px solid rgb(239, 243, 244);
+}
+.message
+{
+    display: flex;
+}
+.messagetwitterLogoOuter
+{
+    padding-left: 18px;
+    padding-right: 11px;
+}
+.messagetwitterLogo
+{
+    width: 28px;
+    height: 28px;
+}
+.notifyMessageText
+{
+    margin: 0;
+    font-size: 14px;
+    font-family: font1;
+    padding-right: 19px;
+    line-height: 19px;
+}

@@ -1,0 +1,66 @@
+.Next
+{
+    border: 1px solid black;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 47px;
+    opacity: 0.5;
+    width: 100%;
+}
+.Next-1
+{
+    opacity: 10;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 47px;
+    width: 100%;
+}
+.skipProfile
+{
+    cursor: pointer;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 49px;
+    width: 100%;
+    border: 1px solid rgb(207, 217, 222);
+    background-color: white;
+}
+.skipProfile:hover
+{
+    background-color: rgba(15, 20, 25, 0.1);
+}
+.skipProfile p
+{
+    color: black;
+}
+.loginButton
+{
+    height: 34px;
+}
+.Next p, .Next-1 p
+{
+    color: white;
+    font-size: 16px;
+    font-family: font1;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.skipProfile p
+{
+    font-size: 16px;
+    font-family: font3;
+}
+.loginButton p
+{
+    font-size: 14px;
+}

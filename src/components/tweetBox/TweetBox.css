@@ -1,0 +1,173 @@
+.tweetBox {
+   display: flex;
+   flex-direction: row;
+}
+
+.tweetBoxProfileImageDiv {
+   flex-basis: 46px;
+   flex-grow: 0;
+   margin-right: 11px;
+}
+
+.tweetBoxProfileImage {
+   width: 46px;
+   height: 46px;
+   border-radius: 50%;
+}
+
+.tweetBoxTweetingAreaOuter {
+   flex-grow: 1;
+   display: flex;
+   width: 100%;
+   padding-top: 2px;
+}
+
+.tweetBoxTweetingArea {
+   width: 100%;
+}
+
+.tweetingAreaSendingOptionOuter {
+   height: fit-content;
+   padding-bottom: 11px;
+   padding-left: 2px;
+   display: none;
+}
+
+.tweetingAreaInputBoxDiv {
+   padding-top: 11px;
+   margin-left: 2px;
+   padding-bottom: 13px;
+   max-width: 507px;
+   width: 100%;
+   min-width: 0px;
+}
+ 
+.tweetingAreaReplyOptionOuter {
+   padding-left: 4px;
+   border-bottom: 1px solid rgb(239, 243, 244);
+   padding-bottom: 10px;
+   display: none;
+}
+
+.tweetingAreaReplyOptionOuter-1{
+   pointer-events: none;
+   opacity: 0.5;
+}
+
+.tweetingAreaBottomOuter {
+   width: 100%;
+   padding-bottom: 8px;
+}
+
+.tweetingAreaBottom {
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+}
+
+.tweetingFeatures {
+   display: flex;
+   margin-top: 12px;
+   margin-left: -6px;
+}
+
+.tweetingAreaBottomRightOuter {
+   padding-top: 11px;
+}
+
+.tweetingAreaBottomRight {
+   display: flex;
+}
+
+.tweetingDetails {
+   display: none;
+}
+.tweetingDetails-1
+{
+   display: flex;
+}
+
+.tweetTextCircularProgressDiv {
+   margin-top: 7px;
+   margin-right: 5px;
+}
+
+.tweetTextCircularProgressDiv-1{
+   margin-top: 1px;
+   margin-right: 0;
+}
+
+.tweetingDetailsLine {
+   height: 29px;
+   background-color: rgb(185, 202, 211);
+   width: 2px;
+   margin-right: 11px;
+   margin-top: 3px;
+   margin-left: 7px;
+}
+
+.addTweetIconDivOuter {
+   margin-right: 11px;
+   margin-top: 6px;
+}
+
+.tweetBoxTweetButtonOuter {
+   margin-right: 4px;
+}
+
+.tweetSendingListBoxOuter
+{
+    width: 260px;
+    height: 181px;
+    position: absolute;
+    margin-left: -21px;
+    top: 43px;
+   background-color: rgba(255,255,255,1.00);
+   box-shadow: rgb(101 119 134 / 20%) 0px 0px 15px, rgb(101 119 134 / 15%) 0px 0px 3px 1px;
+   border-radius: 16px;
+   z-index: 3;
+   display: none;
+}
+.tweetSendingListBoxOuter-1
+{
+   display: block;
+}
+.tweetSendingListBox
+{
+   padding-top: 11px;
+}
+.sendingListHeading
+{
+   padding-left: 11px;
+   padding-top: 4px;
+}
+.sendingListHeadingText
+{
+   font-size: 19px;
+   margin: 0;
+   font-family: font3;
+   color: rgb(15, 20, 25);
+}
+.sendingEveryOneOptionOuter
+{
+   padding-top: 11px;
+   padding-left: 15px;
+   cursor: pointer;
+   padding-bottom: 11px;
+   margin-top: 4px;
+}
+.sendingEveryOneOptionOuter:hover
+{
+   background-color: rgb(247,249,249);
+}
+.sendingCircleOptionOuter
+{
+   padding-top: 11px;
+   padding-left: 15px;
+   cursor: pointer;
+   padding-bottom: 11px;
+}
+.sendingCircleOptionOuter:hover
+{
+   background-color: rgb(247,249,249);
+}

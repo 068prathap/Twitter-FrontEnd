@@ -1,0 +1,230 @@
+.exploreTopNavbarOuter
+{
+    margin-top: 4px;
+}
+.exploreTopSearchbarOuter
+{
+    padding-left: 19px;
+    padding-right: 14px;
+}
+.exploreTopSearchbar
+{
+    display: flex;
+    align-items: center;
+}
+.exploreTopUserImgDiv
+{
+    display: none;
+}
+.exploreTopUserImg
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.exploreTopInputBoxOuter
+{
+    flex-grow: 1;
+    position: relative;
+}
+.exploreTopInputBoxDiv
+{
+    background-color: rgb(239, 243, 244);
+    border-radius: 9999px;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    box-sizing: border-box;
+}
+.exploreTopInputBoxDiv-1
+{
+    background-color: white;
+    border: 1px solid rgb(29, 155, 240);
+}
+.exploreTopSearchIcon
+{
+    padding-left: 6px;
+    margin-top: 5px;
+}
+.exploreTopInputBox
+{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: rgb(15, 20, 25);
+    font-size: 14px;
+    font-family: font1;
+    font-weight: 400px;
+    padding-left: 6px;
+}
+.exploreTopInputClose
+{
+    background-color: rgb(29, 155, 240);
+    width: 25px;
+    height: 21px;
+    border-radius: 9999px;
+    margin-right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.exploreTopInputCloseIcon
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchHistoryPopupOuter
+{
+    position: absolute;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    z-index: 2;
+    box-shadow: rgb(101 119 134 / 20%) 0px 0px 15px, rgb(101 119 134 / 15%) 0px 0px 3px 1px;
+}
+.searchHistoryPopup
+{
+    min-height: 100px;
+    background-color: white;
+}
+.searchNoteDiv
+{
+    padding: 20px 11px 11px 11px;
+    display: flex;
+    justify-content: center;
+}
+.searchNote
+{
+    font-size: 14px;
+    color: rgb(83, 100, 113);
+    font-family: font1;
+    margin: 0;
+}
+.searchHistoryHeadingOuter
+{
+    padding: 12px 15px;
+    padding-bottom: 11px;
+}
+.searchHistoryHeading
+{
+    display: flex;
+    justify-content: space-between;
+}
+.recentTag
+{
+    font-size: 19px;
+    font-family: font4;
+    margin: 0;
+}
+.clearAllTag
+{
+    margin: 0;
+    font-size: 14px;
+    font-family: font3;
+    color: rgb(29, 155, 240);
+    padding-right: 11px;
+    padding-top: 2px;
+    cursor: pointer;
+}
+.searchHistoryOuter
+{
+    padding: 18px 21px;
+}
+.searchHistory
+{
+    display: flex;
+    height: 44px;
+    align-items: center;
+}
+.historySearchIcon
+{
+    padding-left: 7px;
+}
+.searchHistoryTextDiv
+{
+    flex-grow: 1;
+    padding-left: 24px;
+    margin-top: -6px;
+}
+.searchHistoryText
+{
+    margin: 0;
+    font-size: 14px;
+    font-family: font1;
+}
+.exploreTopSettingIconDiv
+{
+    padding-left: 39px;
+    margin-top: 6px;
+}
+.exploreTopNavListOuter
+{
+    padding-top: 8px;
+}
+.exploreTopNavList
+{
+    display: flex;
+}
+.exploreTopNavTopicDivOuter
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.exploreTopNavTopicDiv
+{
+    width: fit-content;
+}
+.exploreTopNavTopic
+{
+    font-size: 14px;
+    font-family: font3;
+    padding-left: 3px;
+    padding-right: 3px;
+    color: grey;
+    margin-bottom: 13px;
+}
+.forYouNavInExplore
+{
+    min-width: 50px;
+}
+.exploreTopNavTopicActive
+{
+    color: rgb(15, 20, 25);
+}
+.activeNavline
+{
+    height: 3.5px;
+    width: 100%;
+    background-color: rgb(29, 155, 240);
+    border-radius: 10px;
+}
+@media only screen and (max-width: 500px)
+{
+    .exploreTopNavbarOuter
+    {
+        margin-top: 3px;
+        padding-left: 15px;
+        padding-right: 13px;
+    }
+    .exploreTopUserImgDiv
+    {
+        display: block;
+        padding-right: 22px;
+        margin-top: 5px;
+    }
+    .exploreTopInputBoxDiv
+    {
+        height: 27px;
+    }
+    .exploreTopSettingIconDiv
+    {
+        margin-top: 5px;
+        padding-left: 35px;
+    }
+}

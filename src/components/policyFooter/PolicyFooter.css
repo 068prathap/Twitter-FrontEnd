@@ -1,0 +1,53 @@
+.policyListOuter
+{
+    padding: 15px 15px;
+}
+.policyList
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.policyNameDiv
+{
+    padding-right: 11px;
+    margin-bottom: 5px;
+}
+.policyName
+{
+    font-size: 12px;
+    font-family: font1;
+    color: rgb(83, 100, 113);
+    margin: 0;
+    line-height: 15px;
+    cursor: pointer;
+}
+.policyName:hover
+{
+    text-decoration: underline;
+}
+.moreOption
+{
+    display: flex;
+    padding-right: 11px;
+    cursor: pointer;
+}
+.moreOption:hover
+{
+    text-decoration: underline;
+}
+.moreOptionText
+{
+    font-size: 12px;
+    font-family: font1;
+    color: rgb(83, 100, 113);
+    margin: 0;
+    line-height: 15px;
+}
+.policyDate
+{
+    font-size: 12px;
+    font-family: font1;
+    color: rgb(83, 100, 113);
+    margin: 0;
+    line-height: 15px;
+}

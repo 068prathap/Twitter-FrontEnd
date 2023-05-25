@@ -1,0 +1,91 @@
+.suggestedUserDialogBoxOuter
+{
+    position: absolute;
+    box-shadow: rgb(101 119 134 / 20%) 0px 0px 15px, rgb(101 119 134 / 15%) 0px 0px 3px 1px;
+    border-radius: 12px;
+    overflow: hidden;
+    right: 40px;
+}
+.suggestedUserDialogBox
+{
+    background-color: rgba(255,255,255,1.00);
+    width: 270px;
+    padding: 15px;
+}
+.suggestedUserImgOuter
+{
+    display: flex;
+    justify-content: space-between;
+}
+.suggestedUserImgDiv
+{
+    cursor: pointer;
+}
+.suggestedUserImg
+{
+    width: 61px;
+    height: 61px;
+    border-radius: 50%;
+}
+.suggestedPersonNameDiv
+{
+    margin-top: 8px;
+    cursor: pointer;
+}
+.suggestedPersonName
+{
+    margin: 0;
+    font-size: 16px;
+    font-family: font3;
+}
+.suggestedPersonName:hover
+{
+    text-decoration: underline;
+}
+.suggestedPersonUsernameDiv
+{
+    margin-top: 3px;
+    cursor: pointer;
+}
+.suggestedPersonUsername
+{
+    font-size: 14px;
+    font-family: font1;
+    color: rgb(83, 100, 113);
+    margin: 0;
+}
+.suggestedPersonBioDiv
+{
+    margin-top: 15px;
+}
+.suggestedPersonBio
+{
+    margin: 0;
+    font-size: 14px;
+    font-family: font1;
+}
+.suggestedPersonFriendsCount
+{
+    display: flex;
+    margin-top: 15px;
+}
+.suggestedPersonFollowingCountDiv
+{
+    margin-right: 19px;
+}
+.suggestedPersonFollowingCountDiv:hover, .suggestedPersonFollowerCountDiv:hover
+{
+    text-decoration: underline;
+}
+.suggestedPersonFollowingCountText, .suggestedPersonFollowerCountText
+{
+    font-size: 13px;
+    font-family: font1;
+    margin: 0;
+    color: rgb(83, 100, 113);
+}
+.suggestedPersonFollowingCount, .suggestedPersonFollowerCount
+{
+    font-family: font3;
+    color: rgb(15, 20, 25);
+}

@@ -1,0 +1,133 @@
+.loginPageHeader
+{
+    display: flex;
+    padding-top: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.closeBar
+{
+    width: calc(50% - 15px);
+    cursor: pointer;
+}
+.closeBar img
+{
+    width: 19px;
+    height: 19px;
+}
+.twitterLogo
+{
+    width: 50%;
+}
+.twitterLogo img
+{
+    width: 30px;
+    height: 30px;
+}
+.loginPageContent0
+{
+    display: flex;
+    justify-content: center;
+}
+.loginPageContent
+{
+    min-width: 364px;
+    max-width: 364px;
+    padding: 0px 30px;
+    box-sizing: border-box;
+}
+.loginTitle
+{
+    margin-bottom: 30px;
+}
+.loginTitle p
+{
+    font-size: 29px;
+    font-family: font3;
+    color: #0f1419;
+    margin-top: 18px;
+}
+.googleLogin
+{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.appleLogin
+{
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+.horizontalLine
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.horizontalLine hr
+{
+    border: 0px;
+    border-top: 1px solid rgb(207, 217, 222);
+}
+.firstHalfLine
+{
+    width: calc(50% - 20px);
+}
+.middleWordInLine
+{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.middleWordInLine p
+{
+    font-size: 16px;
+    font-family: font1;
+    color: #0f1419;
+    margin: 0;
+}
+.SecountHalfLine
+{
+    width: calc(50% - 20px);
+}
+.loginInput
+{
+    margin-bottom: 24px;
+}
+.loginNextButton
+{
+    margin-bottom: 22px;
+}
+.loginForgotButton
+{
+    margin-bottom: 50px;
+}
+.notHaveAccount p
+{
+    font-size: 14px;
+    color: rgb(83, 100, 113);
+    font-family: font1;
+}
+.notHaveAccount p span
+{
+    color: rgb(29, 155, 240);
+    cursor: pointer;
+}
+.notHaveAccount p span:hover
+{
+    text-decoration: underline;
+}
+.wrongAccount
+{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(29, 155, 240);
+    border-radius: 5px;
+    display: none;
+}
+.wrongAccount p
+{
+    padding-left: 22px;
+    padding-right: 22px;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: font1;
+}

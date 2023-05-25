@@ -1,0 +1,192 @@
+.editProfile
+{
+    overflow-y: scroll;
+    width: 600px;
+    height: 601px;
+}
+.editProfileHeaderOuter
+{
+    padding-top: 14px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding-bottom: 11px;
+}
+.editProfileHeader
+{
+    display: flex;
+    padding: 0px 15px;
+}
+.editProfileCloseIcon
+{
+    padding-right: 34px;
+    margin-top: 1px;
+}
+.editProfileTitleDiv
+{
+    flex-grow: 1;
+}
+.editProfileTitle
+{
+    margin: 0;
+    font-size: 19px;
+    font-family: font3;
+}
+.editProfileSaveButtonOuter
+{
+    cursor: pointer;
+    margin-top: -5px;
+}
+.editProfileSaveButton
+{
+    background-color: rgb(15, 20, 25);
+    border-radius: 9999px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+}
+.editProfileSaveButton:hover
+{
+    background-color: rgb(39, 44, 48);
+}
+.editProfileSaveButtonText
+{
+    font-size: 13px;
+    line-height: 15px;
+    margin: 0;
+    font-family: font3;
+    color: white;
+    padding: 0px 16px;
+}
+.editProfileHeaderImgOuter
+{
+    border: 2px solid white;
+    position: relative;
+    z-index: 0;
+}
+.editProfileHeaderImgDiv
+{
+    width: 100%;
+}
+.editProfileHeaderImgDiv-1
+{
+    background-color: rgb(207, 217, 222);
+    padding-bottom: 33.3333%;
+}
+.editProfileHeaderImg
+{
+    width: 100%;
+    height: 193px;
+    object-fit: cover;
+}
+.imageCoveringDiv
+{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.3);;
+    height: 97%;
+}
+.imageCoveringDiv-1
+{
+    height: 100%;
+}
+.headerImageEditOptionOuter
+{
+    position: absolute;
+    width: 100%;
+    height: 98%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerImageEditOption
+{
+    display: flex;
+}
+.headerImageAddIconDiv, .headerImageRemoveIconDiv
+{
+    background-color: rgba(15, 20, 25, 0.75);
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.headerImageAddIconDiv:hover, .headerImageRemoveIconDiv:hover
+{
+    background-color: rgba(39, 44, 48, 0.75);
+}
+.headerImageAddIconDiv
+{
+    position: relative;
+}
+.headerImageInput
+{
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    border-radius: 50%;
+    /* opacity: 0; */
+    cursor: pointer;
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+.headerImageRemoveIconDiv
+{
+    margin-left: 19px;
+}
+.headerImageAddIcon, .headerImageRemoveIcon
+{
+    width: 21px;
+    height: 21px;
+}
+.editProfileUserImgOuter
+{
+    margin-top: -7%;
+    position: relative;
+    padding-left: 14px;
+}
+.editProfileUserImgDiv
+{
+    width: 18%;
+    position: relative;
+}
+.editProfileUserImg
+{
+    border-radius: 50%;
+    width: 100%;
+    border: 4px solid white;
+}
+.profileImageCoveringDiv
+{
+    position: absolute;
+    height: 90.5%;
+    width: 101%;
+    top: 2px;
+    left: 4px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.3);;
+}
+.editProfileName
+{
+    padding: 11px 15px;
+    margin-top: -34px;
+}
+.editProfileBio
+{
+    padding: 11px 15px;
+}
+.editProfileLocation
+{
+    padding: 11px 15px;
+}
+.editProfileWebsite
+{
+    padding: 11px 15px;
+}

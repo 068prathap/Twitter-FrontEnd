@@ -1,0 +1,53 @@
+.createAccount
+{
+    /* display: none; */
+}
+.signupStep1
+{
+    display: none;
+}
+.signupStep2
+{
+    display: none;
+}
+.signupStep3
+{
+    display: none;
+}
+.MuiPaper-rounded
+{
+    border-radius: 16px !important;
+}
+.otpDialogTag
+{
+    display: none;
+}
+.signupStep4
+{
+    display: none;
+}
+.signupStep5
+{
+    display: none;
+}
+.profilePicture
+{
+    display: none;
+}
+.userName
+{
+    display: none;
+}
+.notificationAccess
+{
+    display: none;
+}
+@media only screen and (max-width: 700px)
+{
+    #signup:nth-child(3) .MuiPaper-root
+    {
+        min-width: 100vw;
+        min-height: 100vh;
+        border-radius: 0px !important;
+    }
+}

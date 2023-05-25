@@ -1,0 +1,60 @@
+.signupHeader
+{
+    display: flex;
+}
+.dataTitle p
+{
+    font-size: 29px;
+    font-family: font3;
+    color: #0f1419;
+}
+.confrimData0
+{
+    display: flex;
+    justify-content: center;
+    margin-top: -17px;
+}
+.confrimData
+{
+    max-width: 600px;
+    width: 100%;
+    padding-left: 76px;
+    padding-right: 76px;
+}
+.inputData
+{
+    width: 100%;
+}
+.policyButton0
+{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 23px;
+}
+.servicePolicy
+{
+    padding-left: 76px;
+    padding-right: 76px;
+}
+.servicePolicy p
+{
+    font-size: 12px;
+    font-family: font1;
+    color: #536471;
+    line-height: 15px;
+}
+.servicePolicy p a
+{
+    color: rgb(29, 155, 240);
+    cursor: pointer;
+}
+.servicePolicy p a:hover
+{
+    text-decoration: underline;
+}
+.signupButtonOuter
+{
+    padding-left: 76px;
+    padding-right: 76px;
+    margin-top: 23px;
+}

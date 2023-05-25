@@ -1,0 +1,75 @@
+.sideNavbarTab
+{
+    display: flex;
+    margin-bottom: 8px;
+    cursor: pointer;
+    width: fit-content;
+    border-radius: 9999px;
+    padding: 11px 26px 11px 11px;
+}
+.sideNavbarTab:hover
+{
+    background-color: rgba(15, 20, 25, 0.1);
+}
+.sideNavbarTabP
+{
+    font-size: 19px;
+    font-family: font1;
+    margin: 0;
+    padding-left: 19px;
+    margin-top: 1px;
+}
+.sideNavbarTabImg
+{
+    width: 24.5px;
+    height: 24.5px;
+}
+.activeP
+{
+    font-family: font3;
+}
+.sideNavbarMsgTabP, .sideNavbarTBTabP, .sideNavbarExploreTabP, .sideNavbarMoreTabP
+{
+    margin-top: 0px;
+}
+.sideNavbarSearchTab
+{
+    display: none;
+    height: 24.500px;
+}
+@media only screen and (max-height: 660px)
+{
+    .sideNavbarTab
+    {
+        margin-bottom: 0px;
+    }
+}
+@media only screen and (max-height: 575px)
+{
+    .sideNavbarBMTab
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1270px)
+{
+    .sideNavbarTabP
+    {
+        display: none;
+    }
+    .sideNavbarTab
+    {
+        padding-right: 11px;
+    }
+}
+@media only screen and (max-width: 990px)
+{
+    .sideNavbarSearchTab
+    {
+        display: block;
+    }
+    .sideNavbarExploreTab
+    {
+        display: none;
+    }
+}
