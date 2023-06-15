@@ -6,12 +6,14 @@ import { observer } from 'mobx-react';
 import { store } from '../../Mobx';
 import { useEffect } from 'react';
 import { gettingrecommendedDetails } from '../../utils/Members';
+import { gettingrecommendedSearchDetails } from '../../utils/Members';
 
 export default observer( function Recommended()
 {
     const [inputActive,setInputActive]=useState(false)
     store.currentMembersPage=2;
     const [apiResponse,setApiResponse]=useState(0);
+    const [inputValue,setInputValue]=useState(false)
 
     useEffect(()=>{
         gettingrecommendedDetails(store);
@@ -25,14 +27,18 @@ export default observer( function Recommended()
                     <div className={inputActive==false ? 'recommendedSearchTab' : 'recommendedSearchTab recommendedSearchTab-1'}>
                         <div className={inputActive==false ? 'recommendedSearchLabel' : 'recommendedSearchLabel recommendedSearchLabel-1'}>
                             <div className='recommendedSearchIcon'>{searchIcon('rgb(83, 100, 113)', "15px", "15px")}</div>
-                            <p className={inputActive==false ? 'recommendedSearchText' : 'recommendedSearchText-1'}>Search people</p>
+                            <p className={inputActive==false ? 'recommendedSearchText' : 'recommendedSearchText-1'}>{inputValue=='' ? 'Search people' : inputValue}</p>
                         </div>
-                        <input className={inputActive==false ? 'recommendedSearchInput' : 'recommendedSearchInput recommendedSearchInput-1'} type="text" placeholder={inputActive==true ? 'Search people' : ''} onBlur={()=>setInputActive(false)}/>
+                        <input className={inputActive==false ? 'recommendedSearchInput' : 'recommendedSearchInput recommendedSearchInput-1'} type="text" placeholder={inputActive==true ? 'Search people' : ''} onBlur={()=>setInputActive(false)} onChange={(e)=>{gettingrecommendedSearchDetails(store,e.target.value,setInputValue)}}/>
                     </div>
                 </div>
-                <div className='membersDivPageContentNote recommendedPageNote'>
-                    <p className='membersDivPageContentNoteText'>People won’t be notified when you edit your Twitter Circle. Anyone you add will be able to see your previous Twitter Circle Tweets. <a className='membersDivPageContentNoteHelpLink' href='https://help.twitter.com/using-twitter/twitter-circle'>How it works</a></p>
-                </div>
+                {inputValue==false ?
+                    <div className='membersDivPageContentNote recommendedPageNote'>
+                        <p className='membersDivPageContentNoteText'>People won’t be notified when you edit your Twitter Circle. Anyone you add will be able to see your previous Twitter Circle Tweets. <a className='membersDivPageContentNoteHelpLink' href='https://help.twitter.com/using-twitter/twitter-circle'>How it works</a></p>
+                    </div>
+                    :
+                    <></>
+                }
                 {store.recommendedDetails.length==0 ? 
                     <div className='membersDivNoCircleOuter'>
                         <div className='membersDivNoCircle'>

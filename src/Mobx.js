@@ -18,7 +18,7 @@ const mobxStore={
     exploreTab:true,
     searchHistory:JSON.parse(localStorage.getItem('exploreSearch')),
     twitterBlue:false,
-    profilePageUrl:'userName',
+    profilePageUrl:'',
     profileName:'',
     profileTweetCount:'',
     profileHeaderImg:'',
@@ -31,6 +31,10 @@ const mobxStore={
     profileFollowerCount:'',
     profileFollowingCount:'',
     profilewebsite:'',
+    newLayout:false,
+    dialogBoxs:{
+        messageAddDialogBox:false,
+    }
 }
 
 export const store=observable(mobxStore);

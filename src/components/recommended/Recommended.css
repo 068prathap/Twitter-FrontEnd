@@ -55,11 +55,13 @@
     margin-top: 1px;
     font-family: font1;
     position: absolute;
+    opacity: 0;
 }
 .recommendedSearchInput-1
 {
     position: relative;
     padding-left: 4px;
+    opacity: 1;
 }
 .recommendedPageNote
 {

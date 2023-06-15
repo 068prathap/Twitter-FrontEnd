@@ -1,9 +1,11 @@
 import './FollowButton.css'
+import { AddFollower } from '../../utils/FollowButton';
+import { RemoveFollower } from '../../utils/FollowButton';
 
 export default function FollowButton(props)
 {
     return (
-        <div className='followButtonOuter'>
+        <div className='followButtonOuter' onClick={()=>{props.buttonName=='follow' ? AddFollower(props.id) : RemoveFollower(props.id)}}>
             <div className={props.buttonClass}
                 onClick={() => {
                     if (props.buttonName === "follow") {

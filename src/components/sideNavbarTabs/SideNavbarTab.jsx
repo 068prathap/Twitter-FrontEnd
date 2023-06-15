@@ -2,10 +2,10 @@ import './SideNavbarTab.css';
 import { activeTab } from '../../utils/SideNavbarTab';
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { observer } from 'mobx-react';
+// import { observer } from 'mobx-react';
 import { store } from '../../Mobx';
 
-export default observer( function SideNavbarTab(props)
+export default ( function SideNavbarTab(props)
 {
     const navigate=useNavigate();
 
@@ -16,6 +16,8 @@ export default observer( function SideNavbarTab(props)
     return(
         <div className={props.class} onClick={()=>{
                 props.pText!='More'?activeTab(props.active,props.setActive,props.pRef,props.activeImg,props.oldImg,props.imgRef,props.imgActive,props.setActiveImg,props.setOldImg,props.img):<></>;
+                props.profilePage==true ? store.profilePageUrl='store.username' : <></>;
+                props.profilePage==true ? localStorage.setItem('profileURL', store.username) : <></>;
                 navigate(props.navigate);
                 store.exploreTab=props.exploreTab;
                 props.twitterBlue==true ? store.twitterBlue=true : <></>;

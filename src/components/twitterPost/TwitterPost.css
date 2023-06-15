@@ -1,0 +1,257 @@
+.twitterPostOuter
+{
+    border-bottom: 1px solid rgb(239, 243, 244);
+    cursor: pointer;
+}
+.twitterPostOuter:hover
+{
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.twitterPost
+{
+    padding: 11px 15px;
+    display: flex;
+}
+.postHeader
+{
+    display: flex;
+}
+.postLogoOuter
+{
+    margin-right: 11px;
+}
+.postLogo
+{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+.postDetailsOuter
+{
+    position: relative;
+}
+.postNameDetailsOuter
+{
+    height: fit-content;
+}
+.postNameDetails
+{
+    display: flex;
+    justify-content: space-between;
+}
+.postNameDetailsDiv
+{
+    display: flex;
+}
+.postNameOuter
+{
+    height: fit-content;
+}
+.postNameDiv
+{
+    display: flex;
+}
+.postName
+{
+    margin: 0;
+    font-size: 14px;
+    font-family: font3;
+    color: rgb(15, 20, 25);
+}
+.postName:hover
+{
+    text-decoration: underline;
+}
+.postBlueVerified
+{
+    margin-left: 2px;
+}
+.postUsernameDiv
+{
+    margin-left: 4px;
+}
+.postUsername
+{
+    margin: 0;
+    font-size: 14px;
+    font-family: font1;
+    color: rgb(83, 100, 113);
+}
+.postCenterPointDiv
+{
+    padding: 0px 4px;
+}
+.postCenterPoint
+{
+    margin: 0;
+    font-size: 14px;
+    font-family: font1;
+    color: rgb(83, 100, 113);
+}
+.postTime
+{
+    margin: 0;
+    font-size: 14px;
+    font-family: font1;
+    color: rgb(83, 100, 113);
+}
+.postTime:hover
+{
+    text-decoration: underline;
+}
+.postThreeDotOuter
+{
+    margin-top: -6px;
+    margin-right: -6px;
+}
+.postThreeDot
+{
+    height: 33.5px;
+    width: 33.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.postThreeDot:hover
+{
+    background-color: rgba(29, 155, 240, 0.1);
+}
+.homePostDialogBox
+{
+    position: absolute;
+    background-color: white;
+    top: 0;
+    right: 0;
+    z-index: 3;
+    box-shadow: rgb(101 119 134 / 20%) 0px 0px 15px, rgb(101 119 134 / 15%) 0px 0px 3px 1px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+.postContentOuter
+{
+    margin-top: -5px;
+}
+.postContent
+{
+    margin: 0;
+    font-size: 14px;
+    font-family: font1;
+    color: rgb(15, 20, 25);
+}
+.postMediaOuter
+{
+    margin-top: 13px;
+    position: relative;
+}
+.postMediaDiv
+{
+    width: 100%;
+}
+.postMedia
+{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.postFooterOuter
+{
+    margin-top: 11px;
+}
+.postFooter
+{
+    display: flex;
+    max-width: 425px;
+    justify-content: space-between;
+}
+.postReplyDiv
+{
+    display: flex;
+}
+.postReplyDiv:hover .postReplyCount
+{
+    color: rgb(29, 155, 240);
+}
+.postRetweetDiv
+{
+    display: flex;
+}
+.postRetweetDiv:hover .postRetweetCount
+{
+    color: rgb(0, 186, 124);
+}
+.postLikeDiv
+{
+    display: flex;
+}
+.postLikeDiv:hover .postLikeCount
+{
+    color: rgb(249, 24, 128);
+}
+.postViewDiv
+{
+    display: flex;
+}
+.postViewDiv:hover .postViewCount
+{
+    color: rgb(29, 155, 240);
+}
+.postReply, .postRetweet, .postLike, .postView, .postShare
+{
+    height: 33.5px;
+    width: 33.5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: -7px;
+    margin-right: -7px;
+    border-radius: 50%;
+}
+.postReplyDiv:hover .postReply
+{
+    background-color: rgba(29, 155, 240, 0.1);
+}
+.postRetweetDiv:hover .postRetweet
+{
+    background-color: rgba(0, 186, 124, 0.1);
+}
+.postLikeDiv:hover .postLike
+{
+    background-color: rgba(249, 24, 128, 0.1);
+}
+.postViewDiv:hover .postView
+{
+    background-color: rgba(29, 155, 240, 0.1);
+}
+.postShareDiv:hover .postShare
+{
+    background-color: rgba(29, 155, 240, 0.1);
+}
+.postReplyCount, .postRetweetCount, .postLikeCount, .postViewCount
+{
+    margin: 0;
+    font-size: 12px;
+    font-family: font1;
+    color: rgb(83, 100, 113);
+    padding: 0px 11px;
+    line-height: 19px;
+}
+.postLikeCount-1
+{
+    color: rgb(249, 24, 128);
+}
+.retweetDialogBox
+{
+    position: absolute;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: rgb(101 119 134 / 20%) 0px 0px 15px, rgb(101 119 134 / 15%) 0px 0px 3px 1px;
+}
+.shareDialogBox
+{
+    position: absolute;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: rgb(101 119 134 / 20%) 0px 0px 15px, rgb(101 119 134 / 15%) 0px 0px 3px 1px;
+    right: 0;
+}

@@ -32,9 +32,13 @@
 {
     margin-top: 0px;
 }
-.sideNavbarSearchTab
+.sideNavbarExploreTab
 {
     display: none;
+}
+.sideNavbarSearchTab
+{
+    /* display: none; */
     height: 24.500px;
 }
 @media only screen and (max-height: 660px)
@@ -64,12 +68,12 @@
 }
 @media only screen and (max-width: 990px)
 {
-    .sideNavbarSearchTab
+    /* .sideNavbarSearchTab
     {
         display: block;
     }
     .sideNavbarExploreTab
     {
         display: none;
-    }
+    } */
 }

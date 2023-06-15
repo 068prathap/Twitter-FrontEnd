@@ -11,6 +11,7 @@
     top: 0;
     background-color: white;
     padding-bottom: 11px;
+    z-index: 1;
 }
 .editProfileHeader
 {
@@ -21,6 +22,7 @@
 {
     padding-right: 34px;
     margin-top: 1px;
+    cursor: pointer;
 }
 .editProfileTitleDiv
 {
@@ -189,4 +191,216 @@
 .editProfileWebsite
 {
     padding: 11px 15px;
+}
+.editProfileDOBEditDiv
+{
+    padding: 11px 15px;
+    padding-bottom: 0px;
+}
+.editProfileDOBEdit
+{
+    font-size: 14px;
+    color: rgb(83, 100, 113);
+    font-family: font2;
+    margin: 0;
+}
+.editProfileDOBEditLink
+{
+    color: rgb(29, 155, 240);
+    cursor: pointer;
+}
+.editProfileDOBEditLink:hover
+{
+    text-decoration: underline;
+}
+.editProfileDOBDiv
+{
+    padding: 11px 15px;
+    padding-top: 4px;
+}
+.editProfileDOB
+{
+    font-size: 19px;
+    font-family: font2;
+    margin: 0;
+}
+.editProfileConfrimDialogOuter
+{
+    width: 320px;
+}
+.editProfileConfrimDialog
+{
+    padding: 30px;
+}
+.confrimHeadingDiv
+{
+    margin-top: 1px;
+    margin-bottom: 8px;
+}
+.confrimHeading
+{
+    font-size: 19px;
+    font-family: font3;
+    margin: 0;
+}
+.confrimNotes
+{
+    font-size: 14px;
+    font-family: font1;
+    margin: 0;
+    color: rgb(83, 100, 113);
+    line-height: 19px;
+}
+.confrimEditButtonOuter
+{
+    margin-top: 23px;
+    margin-bottom: 11px;
+}
+.confrimEditButton
+{
+    background-color: rgb(15, 20, 25);
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9999px;
+    cursor: pointer;
+}
+.confrimEditButton:hover
+{
+    background-color: rgb(39, 44, 48);
+}
+.confrimEditButtonText
+{
+    font-size: 14px;
+    font-family: font3;
+    color: white;
+}
+.confrimCancelButton
+{
+    border: 1px solid rgb(207, 217, 222);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9999px;
+    cursor: pointer;
+}
+.confrimCancelButton:hover
+{
+    background-color: rgba(15, 20, 25, 0.1);
+}
+.confrimCancelButtonText
+{
+    font-size: 14px;
+    font-family: font3;
+}
+.changeDOBArea
+{
+    padding: 11px 15px;
+}
+.changeDOBNoteDiv, .changeDOBPolicy
+{
+    margin: 0;
+    font-family: font1;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgb(83, 100, 113);
+}
+.changeDOBPolicyLink
+{
+    color: rgb(29, 155, 240);
+    cursor: pointer;
+}
+.changeDOBPolicyLink:hover
+{
+    text-decoration: underline;
+}
+.DOBChangeInputOuter
+{
+    margin-top: 18px;
+}
+.DOBChangeInput
+{
+    display: flex;
+}
+.DOBSeeingOptionTitle
+{
+    font-size: 14px;
+    font-family: font4;
+    margin: 0;
+}
+.DOBSeeingOptionNote
+{
+    font-size: 14px;
+    font-family: font1;
+    color: rgb(83, 100, 113);
+    margin: 0;
+}
+.DOBSeeingOptionNoteLink
+{
+    color: rgb(29, 155, 240);
+    cursor: pointer;
+}
+.DOBSeeingOptionNoteLink:hover
+{
+    text-decoration: underline;
+}
+.DOBSeeingOptionOuter
+{
+    margin-top: 30px;
+}
+.DOBSeeingOptionTitleDiv
+{
+    margin-bottom: 6px;
+}
+.DOBSeeingOptionNoteDiv
+{
+    margin-bottom: 20px;
+}
+.monthandDayVisible
+{
+    margin-bottom: 30px;
+}
+.yearVisible
+{
+    margin-bottom: 30px;
+}
+.RemoveDOBOuter:hover
+{
+    cursor: pointer;
+    background-color: rgba(244, 33, 46, 0.1);;
+}
+.RemoveDOB
+{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.RemoveDOBText
+{
+    font-size: 14px;
+    font-family: font1;
+    color: rgb(244, 33, 46);
+    margin: 0;
+}
+.switchProfessionalOuter
+{
+    padding-bottom: 61px;
+}
+.switchProfessional
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 15px;
+}
+.switchProfessionalText
+{
+    margin: 0;
+    font-size: 19px;
+    font-family: font1;
+}
+.switchProfessionalGoArrow
+{
+    transform: rotate(-90deg);
 }

@@ -15,14 +15,14 @@
     margin-right: 11px;
 }
 
-.Month, .Day, .Year
+.Month, .Day, .Year, .MonthandDay
 {
     border: 1px solid rgb(207, 217, 222);
     position: relative;
     border-radius: 4px;
     overflow: hidden;
 }
-.Month label, .Day label, .Year label
+.Month label, .Day label, .Year label, .MonthandDay label
 {
     font-size: 12px;
     font-family: font1;
@@ -34,7 +34,7 @@
 {
     padding: 8px 8px 0px 7.5px;
 }
-.Month select, .Day select, .Year select
+.Month select, .Day select, .Year select, .MonthandDay select
 {
     appearance: none;
     background-color: white;
@@ -48,12 +48,12 @@
     font-size: 16px;
     font-family: font1;
 }
-.Month select option, .Day select option, .Year select option
+.Month select option, .Day select option, .Year select option, .MonthandDay select option
 {
     font-family: font1;
     font-size: 16px;
 }
-.Month svg, .Day svg, .Year svg
+.Month svg, .Day svg, .Year svg , .MonthandDay svg
 {
     width: 21px;
     height: 21px;

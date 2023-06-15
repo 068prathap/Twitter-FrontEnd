@@ -13,5 +13,4 @@ export async function profileApicall(store)
     store.name=userDetails.data[0].name;
     store.username=userDetails.data[0].username;
     store.profileImage=userDetails.data[0].profilepicture_url;
-    store.profilePageUrl=userDetails.data[0].username;
 }

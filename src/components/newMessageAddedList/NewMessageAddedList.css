@@ -1,0 +1,50 @@
+.newAddedMessageOuter
+{
+    margin: 4px;
+    cursor: pointer;
+}
+.newAddedMessage
+{
+    display: flex;
+    border: 1px solid rgb(207, 217, 222);
+    border-radius: 9999px;
+    align-items: center;
+    padding: 2px;
+}
+.newAddedMessage:hover
+{
+    background-color: rgba(29, 155, 240, 0.1);
+}
+.newAddedMessageImgDiv
+{
+    display: flex;
+    margin-right: 9px;
+}
+.newAddedMessageImg
+{
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+}
+.newAddedMessageNameDiv
+{
+    margin-top: 2px;
+}
+.newAddedMessageName
+{
+    margin: 0;
+    color: rgb(15, 20, 25);
+    font-size: 14px;
+    line-height: 19px;
+    font-family: font3;
+}
+.newAddedMessageCloseDiv
+{
+    margin-left: 11px;
+    margin-top: 4px;
+}
+.newAddedMessageClose
+{
+    padding-right: 7px;
+    display: flex;
+}

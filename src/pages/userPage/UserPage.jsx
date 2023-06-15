@@ -1,4 +1,4 @@
-import './Home.css';
+import './UserPage.css';
 import SideNavbar from '../../components/sideNavbar/SideNavbar';
 import RightSideContent from '../../components/rightSideContent/RightSideContent';
 import homeIcon from '../../icons/homeIcon.svg';
@@ -13,13 +13,13 @@ import { useRef, useState } from 'react';
 import { iconClick } from '../../utils/Home';
 import tweetIcon from '../../icons/tweetIcon.svg';
 import { useEffect } from 'react';
-import { profileApicall } from '../../utils/Home';
 import { observer } from 'mobx-react';
 import { store } from '../../Mobx';
 import Members from '../members/Members';
 import {Dialog} from '@material-ui/core';
 import { Outlet } from 'react-router-dom';
 import TwitterBlue from '../../components/twitterBlue/TwitterBlue';
+import MessageAddDialogBox from '../../components/messageAddDialogBox/MessageAddDialogBox';
 
 export default observer(function Home(props)
 {
@@ -42,16 +42,33 @@ export default observer(function Home(props)
                         <SideNavbar/>
                     </div>
                 </div>
-                <div className='middleAndRightPage'>
-                    <div className='middlepage'>
-                        <Outlet/>
-                    </div>
-                    <div className='rightSideContentTagOuter'>
-                        <div className='rightSideContentTag'>
-                            <RightSideContent/>
+                {props.newLayout!=true ?
+                    <div className='middleAndRightPage'>
+                        <div className='middlepage'>
+                            <Outlet/>
+                        </div>
+                        <div className='rightSideContentTagOuter'>
+                            <div className='rightSideContentTag'>
+                                <RightSideContent/>
+                            </div>
                         </div>
                     </div>
-                </div>
+                    :
+                    <div className='newLayoutOuter'>
+                        <div className='newLayout'>
+                            <div className='leftSectionOuter'>
+                                <div className='leftSection'>
+                                    <props.leftComponent/>
+                                </div>
+                            </div>
+                            <div className='rightSectionOuter'>
+                                <div className='rightSection'>
+                                    <props.rightComponent/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
             </div>
             <div className='floatingTweetButtonOuter'>
                 <div className='floatingTweetButton'>
@@ -80,8 +97,7 @@ export default observer(function Home(props)
             <div className={store.tweetSendingListDialogBox==false && store.tweetReplyOptionsDialogBox==false && store.bodyCoveringDiv==false ? 'coveringDiv' : 'coveringDiv coveringDiv-1'}></div>
             {props.members==true ? <Dialog id='membersDialogTag' open={true}><Members twitterCircle={props.twitterCircle} backLink={'/home'}/></Dialog> : <></>}
             {store.twitterBlue==true ? <Dialog id='twitterBlueDialogTag' open={true}><TwitterBlue/></Dialog> : <></>}
+            {store.dialogBoxs.messageAddDialogBox==true ? <Dialog open={true}><MessageAddDialogBox/></Dialog> : <></>}
         </div>
     )
 })
-//mobx
-//meterial ui

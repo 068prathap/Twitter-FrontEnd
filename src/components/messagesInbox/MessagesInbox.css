@@ -1,0 +1,218 @@
+.messageInboxHeadingOuter
+{
+    padding: 0px 15px;
+    padding-right: 7px;
+}
+.messageInboxHeading
+{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+.messageHeadingDiv
+{
+    flex-grow: 1;
+}
+.messageHeading
+{
+    font-size: 19px;
+    color: rgb(15, 20, 25);
+    line-height: 23px;
+    font-family: font3;
+    margin: 0;
+}
+.messageSettingDiv, .messageAddMembersDiv
+{
+    width: 34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.messageSettingDiv:hover, .messageAddMembersDiv:hover
+{
+    background-color: rgba(15, 20, 25, 0.1);
+}
+.emptyInboxNoteOuter
+{
+    margin: 30px 4px;
+}
+.emptyInboxNote
+{
+    padding: 0px 30px;
+}
+.messageInboxWelcome
+{
+    margin-bottom: 8px;
+}
+.messageInboxWelcomeText
+{
+    font-family: font4;
+    margin: 0;
+    color: rgb(15, 20, 25);
+    font-size: 29px;
+    line-height: 34px;
+}
+.inboxNoteDiv
+{
+    margin-bottom: 27px;
+}
+.inboxNote
+{
+    color: rgb(83, 100, 113);
+    margin: 0;
+    font-family: font1;
+    font-size: 14px;
+    line-height: 19px;
+}
+.addInboxButton
+{
+    border-radius: 9999px;
+    background-color: rgb(29, 155, 240);
+    width: fit-content;
+    padding: 0px 31px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.addInboxButton:hover
+{
+    background-color: rgb(26, 140, 216);
+}
+.addInboxButtonText
+{
+    margin: 0;
+    font-family: font3;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgb(255, 255, 255);
+}
+.searchMessage
+{
+    padding: 11px;
+    display: flex;
+    align-items: center;
+}
+.searchMessage-1
+{
+    padding-left: 2px;
+}
+.backFromMessageSearchOuter
+{
+    display: none;
+    cursor: pointer;
+    margin-right: 1px;
+}
+.backFromMessageSearchOuter-1
+{
+    display: block;
+}
+.backFromMessageSearchIcon
+{
+    height: 34px;
+    width: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.backFromMessageSearchIcon:hover
+{
+    background-color: rgba(15, 20, 25, 0.1);
+}
+.searchMessageInputOuter
+{
+    flex-grow: 1;
+}
+.searchMessageInput
+{
+    display: flex;
+    border: 1px solid rgb(207, 217, 222);
+    border-radius: 9999px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 40px;
+}
+.searchMessageInput-1
+{
+    justify-content: space-between;
+    border: 2px solid rgb(29, 155, 240);
+    height: 38px;
+}
+.searchMessageInputBoxOuter
+{
+    position: absolute;  
+    right: 10px;
+    left: 28px;
+    opacity: 0;
+}
+.searchMessageInputBoxOuter-1
+{
+    opacity: 1;
+    right: 48.5px;
+}
+.searchMessageInputBox
+{
+    width: 100%;
+    height: 34px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    font-family: font1;
+    caret-color: rgb(29, 155, 240);
+}
+.messageInputSearchIconDiv
+{
+    margin-top: 4px;
+}
+.messageInputSearchIconDiv-1
+{
+    margin-left: 11px;
+}
+.messageSearchTextDiv-1
+{
+    display: none;
+}
+.messageSearchText
+{
+    font-size: 13px;
+    margin: 0;
+    font-family: font1;
+    color: rgb(83, 100, 113);
+    padding: 12.5px 4px;
+}
+.closeSearchedMessageDiv
+{
+    display: none;
+    margin-right: 11px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+.closeSearchedMessageDiv-1
+{
+    display: block;
+}
+.emptySearchMessageDiv
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+.emptySearchMessageNote
+{
+    color: rgb(83, 100, 113);
+    font-size: 14px;
+    font-family: font1;
+    margin: 0;
+}
+.MessageInboxNavbarTagOuter
+{
+    margin-top: 1px;
+}

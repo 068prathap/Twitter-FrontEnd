@@ -1,31 +1,29 @@
-.pageOuter
-{
+.pageOuter {
     display: flex;
     justify-content: center;
-    overflow-y: scroll;
 }
-.home
-{
+
+.home {
     display: flex;
 }
-.sideNavbarTag
-{
+
+.sideNavbarTag {
     width: 275px;
 }
-.sideNavbarTagPositionFixed
-{
+
+.sideNavbarTagPositionFixed {
     position: fixed;
     overflow-y: auto;
     height: 100vh;
     width: 275px;
 }
-.middleAndRightPage
-{
+
+.middleAndRightPage {
     width: 990px;
     display: flex;
 }
-.middlepage
-{
+
+.middlepage {
     max-width: 600px;
     width: 100%;
     margin-right: 30px;
@@ -33,47 +31,69 @@
     box-sizing: border-box;
     border-bottom: none;
 }
-.rightSideContentTagOuter
-{
+
+.rightSideContentTagOuter {
     width: 350px;
     box-sizing: border-box;
 }
-.rightSideContentTag
-{
+
+.rightSideContentTag {
     width: 350px;
     height: 100%;
 }
-.bottomNavbarOuter
-{
+
+.newLayoutOuter {
+    overflow-y: scroll;
+}
+
+.newLayout {
+    display: flex;
+    width: 990px;
+}
+
+.leftSectionOuter {
+    border-right: 1px solid rgb(239, 243, 244);
+    border-left: 1px solid rgb(239, 243, 244);
+    max-width: 388px;
+    width: 100%;
+    height: 100vh;
+}
+
+.rightSectionOuter {
+    max-width: 600px;
+    width: 100%;
+}
+
+.bottomNavbarOuter {
     position: fixed;
     bottom: 0;
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: rgba(255,255,255,1.00);
+    background-color: rgba(255, 255, 255, 1.00);
     display: none;
 }
-.bottomNavbar
-{
+
+.bottomNavbar {
     max-width: 1000px;
     width: 100%;
     justify-content: space-around;
     display: flex;
 }
-.bottomNavbar img
-{
+
+.bottomNavbar img {
     width: 24.5px;
     height: 28px;
     justify-content: center;
 }
-.bottomIconDiv
-{
-    padding:6px;
+
+.bottomIconDiv {
+    padding: 6px;
     padding-top: 10px;
     cursor: pointer;
 }
-.floatingTweetButtonOuter
-{
+
+.floatingTweetButtonOuter {
     position: fixed;
     bottom: 0;
     right: 0;
@@ -82,233 +102,218 @@
     cursor: pointer;
     display: none;
 }
-.floatingTweetButton
-{
+
+.floatingTweetButton {
     background-color: #1d9bf0;
     border-radius: 9999px;
     height: 49px;
     display: flex;
     align-items: center;
 }
-.floatingTweetButtonText
-{
+
+.floatingTweetButtonText {
     display: flex;
     padding: 0px 30px;
     align-items: center;
 }
-.floatingTweetButtonText img
-{
+
+.floatingTweetButtonText img {
     width: 23px;
     height: 23px;
     margin-right: 8px;
 }
-.floatingTweetButtonText p
-{
+
+.floatingTweetButtonText p {
     margin: 0;
     font-size: 16px;
     color: white;
     font-family: font3;
 }
-.coveringDiv
-{
+
+.coveringDiv {
     width: 100vw;
     height: 100vh;
-    position: absolute;
     z-index: 2;
     display: none;
+    position: fixed;
 }
-.coveringDiv-1
-{
+
+.coveringDiv-1 {
     display: block;
 }
-.greyCoveringDiv
-{
+
+.greyCoveringDiv {
     width: 100vw;
     height: 100vh;
     position: absolute;
     z-index: 2;
     background-color: rgba(0, 0, 0, 0.4);
 }
-.membersTag
-{
+
+.membersTag {
     position: absolute;
     width: 100vw;
     height: 100vh;
 }
 
-@media only screen and (max-width: 1270px)
-{
-    .sideNavbarTag
-    {
+@media only screen and (max-width: 1270px) {
+    .sideNavbarTag {
         width: 88px;
     }
-    .sideNavbarTagPositionFixed
-    {
+
+    .sideNavbarTagPositionFixed {
         width: 88px;
     }
 }
-@media only screen and (max-width: 1080px)
-{
-    .middleAndRightPage
-    {
+
+@media only screen and (max-width: 1080px) {
+    .middleAndRightPage {
         width: 920px;
     }
-    .rightSideContentTag
-    {
+
+    .rightSideContentTag {
         width: 290px;
         /* margin-right: 10px; */
     }
-    .xyz
-    {
-        width: 290px;
-    }
-    .middlepage
-    {
+
+    .middlepage {
         margin-right: 20px;
     }
 
 }
-@media only screen and (max-width: 1010px)
-{
-    .sideNavbarTag
-    {
+
+@media only screen and (max-width: 1010px) {
+    .sideNavbarTag {
         width: 68px;
     }
-    .sideNavbarTagPositionFixed
-    {
+
+    .sideNavbarTagPositionFixed {
         width: 68px;
     }
 }
-@media only screen and (max-width: 990px)
-{
-    .home
-    {
+
+@media only screen and (max-width: 990px) {
+    .home {
         flex-grow: 1;
     }
-    .middleAndRightPage
-    {
+
+    .middleAndRightPage {
         width: 600px;
         flex-grow: 2;
     }
-    .rightSideContentTagOuter
-    {
+
+    .rightSideContentTagOuter {
         display: none;
     }
-    .sideNavbarTag
-    {
+
+    .sideNavbarTag {
         width: 88px;
         flex-grow: 1;
         display: flex;
         justify-content: right;
     }
-    .sideNavbarTagPositionFixed
-    {
+
+    .sideNavbarTagPositionFixed {
         width: 88px;
     }
-    .middlepage
-    {
+
+    .middlepage {
         margin-right: 0px;
     }
 }
-@media only screen and (max-height: 500px)
-{
-    .sideNavbarTag
-    {
+
+@media only screen and (max-height: 500px) {
+    .sideNavbarTag {
         display: none;
-    }   
-    .middlepage
-    {
+    }
+
+    .middlepage {
         margin-right: 20px;
         margin-left: 10px;
     }
-    .bottomNavbarOuter
-    {
+
+    .bottomNavbarOuter {
         display: flex;
     }
-    .floatingTweetButtonOuter
-    {
+
+    .floatingTweetButtonOuter {
         display: block;
     }
 }
-@media only screen and (max-height: 500px) and (max-width: 990px)
-{
-    .bottomNavbar
-    {
+
+@media only screen and (max-height: 500px) and (max-width: 990px) {
+    .bottomNavbar {
         max-width: 600px;
     }
-    .floatingTweetButtonOuter
-    {
+
+    .floatingTweetButtonOuter {
         padding-right: 19px;
     }
-    .middleAndRightPage
-    {
+
+    .middleAndRightPage {
         justify-content: center;
     }
 }
-@media only screen and (max-width: 800px)
-{
-    .floatingTweetButtonOuter
-    {
+
+@media only screen and (max-width: 800px) {
+    .floatingTweetButtonOuter {
         padding-right: 19px;
     }
-    .floatingTweetButtonOuter p
-    {
+
+    .floatingTweetButtonOuter p {
         display: none;
     }
-    .floatingTweetButton
-    {
+
+    .floatingTweetButton {
         height: 53px;
     }
-    .floatingTweetButtonText
-    {
+
+    .floatingTweetButtonText {
         padding: 0px 15px;
     }
-    .floatingTweetButtonText img
-    {
+
+    .floatingTweetButtonText img {
         margin-right: 0px;
     }
 }
-@media only screen and (max-width: 700px)
-{
-    .middleAndRightPage
-    {
+
+@media only screen and (max-width: 700px) {
+    .middleAndRightPage {
         width: 100%;
     }
-    .middlepage
-    {
+
+    .middlepage {
         max-width: none;
     }
-    .contentAreaTag
-    {
+
+    .contentAreaTag {
         width: 100% !important;
     }
 }
-@media only screen and (max-width: 500px)
-{
-    .sideNavbarTag
-    {
+
+@media only screen and (max-width: 500px) {
+    .sideNavbarTag {
         display: none;
     }
-    .bottomNavbarOuter
-    {
+
+    .bottomNavbarOuter {
         display: flex;
     }
-    .floatingTweetButtonOuter
-    {
+
+    .floatingTweetButtonOuter {
         display: block;
     }
 }
-@media only screen and (max-width: 700px)
-{
-    #membersDialogTag:nth-child(3) .MuiPaper-root
-    {
+
+@media only screen and (max-width: 700px) {
+    #membersDialogTag:nth-child(3) .MuiPaper-root {
         margin: 0;
         min-height: 100vh;
         border-radius: 0 !important;
-        min-width: 100vw;
+        min-width: 100vw !important;
     }
-    .MuiPaper-root
-    {
+
+    .MuiPaper-root {
         min-width: 100vw !important;
         min-height: 100vh;
         border-radius: 0 !important;

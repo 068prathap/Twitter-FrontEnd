@@ -19,7 +19,14 @@ export default observer( function ProfilePage()
     const[currentNavTab,setCurrentNavTab]=useState(0);
     const [editProfile,setEditProfile]=useState(false);
 
-    ProfileTabApi(store);
+    if(window.location.pathname==`/${store.username}`)
+    {
+        ProfileTabApi(store,true);
+    }
+    else
+    {
+        ProfileTabApi(store,false,window.location.pathname);
+    }
 
     return(
         <div className='profilePageOuter'>
@@ -34,15 +41,15 @@ export default observer( function ProfilePage()
                     </div>
                 </div>
                 <div className='profilePageBigImgOuter'>
-                    <div className={store.profileHeaderImg!=null ? 'profilePageBigImgDiv' : 'profilePageBigImgDiv profilePageBigImgDiv-1'}>
-                        {store.profileHeaderImg!=null ?
+                    <div className={store.profileHeaderImg!=null && store.profileHeaderImg!='' && store.profileHeaderImg!='undefined' ? 'profilePageBigImgDiv' : 'profilePageBigImgDiv profilePageBigImgDiv-1'}>
+                        {store.profileHeaderImg!=null && store.profileHeaderImg!='' && store.profileHeaderImg!='undefined' ?
                             <img className='profilePageBigImg' src={store.profileHeaderImg}/>
                             :
                             <></>
                         }
                     </div>
                 </div>
-                <div className={store.profileHeaderImg!=null ? 'profilePageEditOuter' : 'profilePageEditOuter profilePageEditOuter-1'}>
+                <div className={store.profileHeaderImg!=null && store.profileHeaderImg!='' && store.profileHeaderImg!='undefined' ? 'profilePageEditOuter' : 'profilePageEditOuter profilePageEditOuter-1'}>
                     <div className='profilePageEdit'>
                         <div className='profilePagePrfileImgDiv'>
                             <img className='profilePageProfileImg' src='https://pbs.twimg.com/profile_images/1426558998354960385/hMwV9rp2_200x200.jpg'/>
@@ -67,18 +74,30 @@ export default observer( function ProfilePage()
                 </div>
                 <div className='profilePagePersonalDetailsOuter'>
                     <div className='profilePagePersonalDetails'>
-                        <div className='profilePageLocationDiv'>
-                            <div className='profilePageLocationIcon'>{locationIcon('rgb(83, 100, 113)','17.5px','17px')}</div>
-                            <p className='profilePageLocation'>{store.profileLocation}</p>
-                        </div>
-                        <div className='profilePageDOBDiv'>
-                            <div className='profilePageDOBIcon'>{balloonIcon('rgb(83, 100, 113)','17.5px','17.5px')}</div>
-                            <p className='profilePageDOB'>Born {store.profileDOB}</p>
-                        </div>
-                        <div className='profilePageJoinDataDiv'>
-                            <div className='profilePageJoinDateIcon'>{calendarIcon('rgb(83, 100, 113)','17.5px','17.5px')}</div>
-                            <p className='profilePageJoinDate'>Joined {store.profileCreateDate}</p>
-                        </div>
+                        {store.profileLocation!=null ?
+                            <div className='profilePageLocationDiv'>
+                                <div className='profilePageLocationIcon'>{locationIcon('rgb(83, 100, 113)','17.5px','17px')}</div>
+                                <p className='profilePageLocation'>{store.profileLocation}</p>
+                            </div>
+                            :
+                            <></>
+                        }
+                        {store.profileDOB!=null ?
+                            <div className='profilePageDOBDiv'>
+                                <div className='profilePageDOBIcon'>{balloonIcon('rgb(83, 100, 113)','17.5px','17.5px')}</div>
+                                <p className='profilePageDOB'>Born {store.profileDOB}</p>
+                            </div>
+                            :
+                            <></>
+                        }
+                        {store.profileCreateDate!=null ?
+                            <div className='profilePageJoinDataDiv'>
+                                <div className='profilePageJoinDateIcon'>{calendarIcon('rgb(83, 100, 113)','17.5px','17.5px')}</div>
+                                <p className='profilePageJoinDate'>Joined {store.profileCreateDate}</p>
+                            </div>
+                            :
+                            <></>
+                        }
                     </div>
                 </div>
                 <div className='followerFollowingCountDiv'>
@@ -97,7 +116,7 @@ export default observer( function ProfilePage()
                     </div>
                 </div>
                 <Outlet/>
-                {editProfile==true ? <Dialog open={true}><EditProfile/></Dialog> : <></>}
+                {editProfile==true ? <Dialog open={true}><EditProfile setEditProfile={setEditProfile}/></Dialog> : <></>}
             </div>
         </div>
     )

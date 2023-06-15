@@ -1,4 +1,5 @@
 import './ScoreTable.css'
+import Trending from '../trending/Trending';
 
 export default function ScoreTable()
 {
@@ -30,6 +31,9 @@ export default function ScoreTable()
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className='exploreTrendingTag'>
+                    <Trending/>
                 </div>
             </div>
         </div>

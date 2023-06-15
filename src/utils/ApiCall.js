@@ -30,10 +30,27 @@ export const ApiCall = async(method,data,link) => {
             response=await Axios.delete(`${process.env.REACT_APP_IPADDRESS}${link}/${data.friendid}`,{headers :{ "authorization": `Bearer ${localStorage.getItem("token")}`}});
             break;
         }
+        case 'getHeaderParams':
+        {
+            response=await Axios.get(`${process.env.REACT_APP_IPADDRESS}${link}/${data}`,{headers :{ "authorization": `Bearer ${localStorage.getItem("token")}`}});
+            break;
+        }
         case 'postHeaderlocal':
         {
             response=await Axios.post(`${process.env.REACT_APP_IPADDRESS}${link}`,data,{headers :{ "authorization": `Bearer ${localStorage.getItem("token")}`}});
-            console.log(response);
+            break;
+        }
+        case 'patchHeader':
+        {
+            try {
+                response = await Axios.patch(`${process.env.REACT_APP_IPADDRESS}${link}`, data, {
+                    headers: {
+                      Authorization: `Bearer ${localStorage.getItem("token")}`
+                    }
+                  });
+            } catch (error) {
+                console.log(error);
+            }
             break;
         }
     }

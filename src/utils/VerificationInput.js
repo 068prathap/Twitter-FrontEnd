@@ -7,7 +7,7 @@ export function OnFocus(code,codeLabel)
 
 export function OnBlur(code,codeLabel,codeInput)
 {
-    if(codeInput.current.value=='')
+    if(codeInput.target.value=='')
     {
         codeLabel.current.classList.remove('codeLabel-1');
     }

@@ -10,17 +10,17 @@ export default function Dob(props)
     return (
         <div className={props.class}>
             <label>{props.class}</label>
-            <select ref={selection} defaultValue={0} onChange={()=>Setvalue(props.setvalue,selection)}>
+            <select ref={selection} defaultValue={props.editProfile==true ? props.defaultIndex : 0} onChange={()=>Setvalue(props.setvalue,selection)}>
                 {arr.map((data,index) => 
                 {
                     if(index==0)
                     {
-                        return (<option value={0} disabled>{data}</option>)
+                        return (<option value={0} disabled={props.editProfile==true ? false : true}>{data}</option>)
                     }
                     else
                     {
                         return (<option value={data}>{data}</option>)
-                    }   
+                    }
                 }
                 )}
             </select>

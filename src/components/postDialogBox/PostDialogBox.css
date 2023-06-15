@@ -1,0 +1,19 @@
+.dialogOptionDiv
+{
+    display: flex;
+    padding: 11px 15px;
+}
+.dialogOptionDiv:hover
+{
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.dialogEmoji
+{
+    padding-right: 11px;
+}
+.dialogOption
+{
+    margin: 0;
+    font-size: 14px;
+    font-family: font3;
+}

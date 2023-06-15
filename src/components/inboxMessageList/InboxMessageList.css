@@ -1,0 +1,142 @@
+.InboxMessageListOuter
+{
+    cursor: pointer;
+    position: relative;
+}
+.InboxMessageList
+{
+    display: flex;
+}
+.InboxMessageList-1
+{
+    background-color: rgb(239, 243, 244);
+}
+.InboxMessageList:hover
+{
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.InboxMessageDetailsOuter
+{
+    flex-grow: 1;
+}
+.InboxMessageDetails
+{
+    display: flex;
+    padding: 15px;
+}
+.InboxMessageImgOuter
+{
+    margin-right: 11px;
+}
+.InboxMessageImgDiv
+{
+    display: flex;
+}
+.InboxMessageImg
+{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+.InboxMessageName
+{
+    margin: 0;
+    font-family: font3;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgb(15, 20, 25);
+}
+.InboxMessageUsernameDiv
+{
+    margin-left: 4px;
+}
+.InboxMessageUsername
+{
+    margin: 0;
+    font-family: font1;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgb(83, 100, 113);
+}
+.InboxMessageDot
+{
+    margin: 0;
+    font-family: font1;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgb(83, 100, 113);
+    padding-left: 4px;
+}
+.messageMenuOuter
+{
+    display: none;
+}
+.messageMenuOuter-1
+{
+ display: block;
+}
+.messageMenu
+{
+    padding-right: 5px;
+    padding-top: 7.5px;
+}
+.messageMenuIcon
+{
+    width: 33.5px;
+    height: 33.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.messageMenuIcon:hover
+{
+    background-color: rgba(29, 155, 240, 0.1);
+}
+.messageMenuListOuter
+{
+    position: absolute;
+    background-color: white;
+    right: 15px;
+    top: 15px;
+    box-shadow: rgb(101 119 134 / 20%) 0px 0px 15px, rgb(101 119 134 / 15%) 0px 0px 3px 1px;
+    border-radius: 12px;
+}
+.messageMenuOption
+{
+    display: flex;
+    padding: 11px 15px;
+    border-bottom: 1px solid rgb(239, 243, 244);
+    cursor: pointer;
+}
+.messageMenuOption:hover
+{
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.messageMenuOptionIcon
+{
+    padding-right: 11px;
+    display: flex;
+}
+.messageMenuOptionText
+{
+    margin: 0;
+    font-family: font3;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgb(15, 20, 25);
+}
+.messageMenuOptionText-1
+{
+    color: rgb(244, 33, 46);
+}
+.InboxMessageActiveLineDiv
+{
+    height: 100%;
+}
+.InboxMessageActiveLine
+{
+    width: 2px;
+    background-color: rgb(29, 155, 240);
+    height: 100%;
+}

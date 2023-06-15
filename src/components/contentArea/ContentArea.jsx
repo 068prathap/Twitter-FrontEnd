@@ -12,6 +12,7 @@ import atIconActive from '../../icons/atIconActive.svg';
 import worldLogo from '../../icons/worldLogo.svg';
 import TweetBoxSelection from '../tweetBoxSelection/TweetBoxSelection';
 import useOnClickOutside from '../../utils/customHooks/useOnClickOutside';
+import TwitterPostList from '../twitterPostList/TwitterPostList';
 
 export default observer( function ContentArea()
 {
@@ -24,41 +25,8 @@ export default observer( function ContentArea()
             <div className='tweetBoxDiv'>
                 <TweetBox/>
             </div>
-            <div>
-                <p>content area</p>
-                <p>content area</p>
-                <p>content area</p>
-                <p>content area</p>
-                <p>content area</p>
-                <p>content area</p>
-                <p>content area</p>
-                <p>content area</p>
-                <p>content area</p>
-                <p>content area</p>
-                <p>content area</p>
-                <p>content area</p>
-                <p>content area</p>
-                <p>content area</p>
-                <p>content area</p>
-                <p>content area</p>
-                <p>content area</p>
-                <p>content area</p>
-                <p>content area</p>
-                <p>content area</p>
-                <p>content area</p>
-                <p>content area</p>
-                <p>content area</p>
-                <p>content area</p>
-                <p>content area</p>
-                <p>content area</p>
-                <p>content area</p>
-                <p>content area</p>
-                <p>content area</p>
-                <p>content area</p>
-                <p>content area</p>
-                <p>content area</p>
-                <p>content area</p>
-                <p>content area</p>
+            <div className='homePostTag'>
+                <TwitterPostList/>
             </div>
             <div ref={tweetReplyDialogBoxOuter} className={store.tweetReplyOptionsDialogBox==true ? 'tweetReplyDialogBoxOuter tweetReplyDialogBoxOuter-1' : 'tweetReplyDialogBoxOuter'}>
                 <div className='tweetReplyDialogBox'>

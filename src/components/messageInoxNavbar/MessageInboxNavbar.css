@@ -1,0 +1,38 @@
+.messageInboxNavbar
+{
+    display: flex;
+}
+.messageInboxnavBarTabOuter
+{
+    flex-grow: 1;
+    height: 50px;
+}
+.messageInboxnavBarTabDiv
+{
+    display: flex;
+    justify-content: center;
+    padding: 0px 15px;
+}
+.messageInboxnavBarTab
+{
+    margin: 0;
+    font-family: font2;
+    color: rgb(83, 100, 113);
+    font-size: 14px;
+    line-height: 19px;
+    padding: 15px 0px;
+}
+.messageInboxnavBarTab-1
+{
+    color: rgb(15, 20, 25);
+    font-family: font3;
+}
+.massageInboxNavbarActiveTab
+{
+    width: 100%;
+}
+.massageInboxNavbarActiveTabLine
+{
+    height: 2px;
+    background-color: rgb(29, 155, 240);
+}

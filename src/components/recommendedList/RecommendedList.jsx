@@ -10,7 +10,7 @@ export default observer( function RecommendedList(props)
             <div className='recommendedFollowersList'>
                 {props.array.map((user,index)=>{
                     return(
-                        <MembersList user={user} index={index} page={props.page}/>
+                        <MembersList user={user.name==undefined ? user._source : user} index={index} page={props.page}/>
                     )
                 })}
             </div>

@@ -21,13 +21,13 @@ export default observer( function TrendingList(props)
                     <div className='trendingContentDiv'>
                         <div className='trendingContentDetails'>
                             <div className='trendingContentHeadingDiv'>
-                                <p className='trendingContentHeading'>Sports - Trending</p>
+                                <p className='trendingContentHeading'>{props.data.category} - Trending</p>
                             </div>
                             <div className='trendingContentNameDiv'>
-                                <p className='trendingContentName'>#IPLPlayOffs</p>
+                                <p className='trendingContentName'>{props.data.hashtags}</p>
                             </div>
                             <div className='trendingContentCountDiv'>
-                                <p className='trendingContentCount'>3,940 Tweets</p>
+                                <p className='trendingContentCount'>{props.data.hashtagcount} Tweets</p>
                             </div>
                         </div>
                         <div className='trendingContentEditOption'>
@@ -39,7 +39,7 @@ export default observer( function TrendingList(props)
                 </div>
             </div>
             {dialogBox==true ?
-                <div ref={trendingOpinionDialogBoxOuter}  className={props.className}>
+                <div ref={trendingOpinionDialogBoxOuter}  className='trendingOpinionDialogBoxOuter'>
                     <div className='trendingOpinionDialogBox'>
                         <div className='opinion1' onClick={()=>{store.bodyCoveringDiv=false;setDialogBox(false)}}>
                             <div className='sadEmoji'>{sadEmoji('rgb(15, 20, 25)','18px','17px')}</div>

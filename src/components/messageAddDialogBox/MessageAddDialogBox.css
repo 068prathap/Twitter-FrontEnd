@@ -1,0 +1,180 @@
+.messageAddDialogBoxOuter
+{
+    min-width: 600px;
+    min-height: 600px;
+    border-radius: 16px;
+    overflow-x: hidden;
+}
+.messageAddBoxHeaderOuter
+{
+    padding: 7px 7px;
+}
+.messageAddBoxTopOuter
+{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.messageAddBoxHeader
+{
+    display: flex;
+}
+.messageAddBoxCloseDiv
+{
+    margin-right: 27px;
+}
+.messageAddBoxClose
+{
+    width: 34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.messageAddBoxClose:hover
+{
+    background-color: rgba(15, 20, 25, 0.1);
+}
+.messageAddBoxHeadingDiv
+{
+    flex-grow: 1;
+    padding-top: 6px;
+}
+.messageAddBoxHeading
+{
+    font-size: 19px;
+    font-family: font3;
+    margin: 0;
+    line-height: 23px;
+}
+.createGroupHeadingOuter
+{
+    flex-grow: 1;
+}
+.createGroupHeading
+{
+    margin: 0;
+    color: rgb(15, 20, 25);
+    font-size: 19px;
+    font-family: font3;
+    line-height: 23px;
+}
+.addPeopleText
+{
+    font-size: 12px;
+    margin: 0;
+    font-family: font1;
+    color: rgb(83, 100, 113);
+}
+.messageAddBoxNextButtonOuter
+{
+    opacity: 0.5;
+    pointer-events: none;
+    cursor: pointer;
+    padding-right: 8px;
+    padding-top: 2px;
+}
+.messageAddBoxNextButtonOuter-1
+{
+    pointer-events: all;
+    opacity: 1;
+}
+.messageAddBoxNextButton
+{
+    background-color: rgba(15, 20, 25);
+    border-radius: 9999px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.messageAddBoxNextButton:hover
+{
+    background-color: rgb(39, 44, 48);
+}
+.messageAddBoxNextButtonText
+{
+    font-size: 14px;
+    font-family: font2;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    line-height: 19px;
+    padding: 0 15.5px;
+}
+.messageSearch
+{
+    display: flex;
+}
+.messageSearchIconDiv
+{
+    padding-left: 17px;
+    display: flex;
+    align-items: center;
+    padding-right: 4px;
+    margin-top: 5px;
+}
+.messageSearchInputDiv
+{
+    flex-grow: 1;
+    overflow-x: hidden;
+    padding: 11px;
+    padding-bottom: 10px;
+}
+.messageSearchInput
+{
+    width: 100%;
+    outline: none;
+    border: none;
+}
+.messageAddedList
+{
+    display: flex;
+    padding: 4px;
+    flex-wrap: wrap;
+}
+.messageBoxHorizondalLine
+{
+    border-top: 1px solid rgb(207, 217, 222);
+}
+.createGroupOuter
+{
+    cursor: pointer;
+}
+.createGroupOuter:hover
+{
+    background-color: rgb(247, 249, 249);
+}
+.createGroup
+{
+    display: flex;
+    align-items: center;
+    padding: 11px 15px;
+    border-bottom: 2px solid rgb(239, 243, 244);
+}
+.createGroupLogoOuter
+{
+    cursor: pointer;
+    margin-right: 11px;
+}
+.createGroupLogoDiv
+{
+    border: 1px solid rgb(207, 217, 222);
+    border-radius: 50%;
+}
+.createGroupLogoDiv:hover
+{
+    background-color: rgba(29, 155, 240, 0.1);
+}
+.createGroupLogo
+{
+    padding: 10px;
+    display: flex;
+}
+.createGroupTitle
+{
+    color: rgb(29, 155, 240);
+    margin: 0;
+    font-size: 14px;
+    font-family: font3;
+}
